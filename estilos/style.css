@@ -1,0 +1,797 @@
+@charset "utf-8";
+:root{
+    --azul: #90b6e7;
+    --azul-escuro: #004080;
+    --azul-padrao: #0495d3;
+}
+body{
+    overflow-x: hidden;
+}
+/* ========================================= ESTILOS PARA MOBILE ================================== */
+.navbar .icone-mobile img{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    display: none;
+}
+.menu-mobile {
+    z-index: 1000;
+    background-color: #fff;
+    box-shadow: 0 1px 10px #a7a7a7da;
+    border-radius: 6px;
+    position: fixed;
+    width: 100vw;
+    height: 80vh;
+    top: 21%;
+    right: auto;
+    padding: 2rem;
+
+    display: none;
+}
+.menu-mobile .nav-mobile{
+    gap: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.menu-mobile .nav-mobile li, .menu-mobile .nav-mobile a{
+    color: #302f2f;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+.menu-mobile .nav-mobile a:hover{
+color: var(--azul-padrao);
+}
+.nav-btn-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+.nav-btn-mobile .btn{
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 15px;
+    background-color: var(--azul-padrao);
+    margin-top: -5px;
+}
+.nav-btn-mobile #btn-login{
+color: var(--azul-padrao);
+background-color: #fff;
+border: 2px solid #0495d3;
+}
+.nav-btn-mobile a{
+    text-decoration: none;
+}
+.nav-btn-mobile #btn-login:hover{
+    color: #fff;
+background-color: #004080;
+border: none;
+}
+.nav-btn-mobile #btn-cadastro{
+    color: #fff;
+    }
+    .nav-btn-mobile #btn-cadastro:hover{
+        background-color: #004080;
+        color: #fff;
+    }
+
+
+/* ========================================= FIM MOBILE =========================================== */
+.cabecalho{
+    z-index: 1000;
+    background-color: #fff;
+    box-shadow: 0 0 3px rgba(156, 156, 156, 0.452);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.cabecalho .topo{
+    display: flex;
+justify-content: space-between;
+background-color: var(--azul-padrao);
+padding: 0 8rem;
+padding-top: .5rem;
+padding-right: 5rem;
+}
+.topo .contacto{
+    margin-left: -5rem;
+}
+.topo .redes{
+    margin-right: 3rem;
+}
+
+.topo p , .topo a{
+    color: white;
+    padding-right: 2px;
+    text-decoration: none;
+}
+.topo .redes a{
+    margin-right: .5rem;
+    font-size: .95rem;
+    opacity: .8;
+}
+.topo .redes a:hover{
+    opacity: 1;
+}
+
+.topo .email a:hover{
+text-decoration: underline;
+}
+/* --------- Menus -------- */
+.cabecalho .navbar{
+    display: flex;
+justify-content: space-between;
+background-color: #fff;
+padding: 0 6.3rem;
+padding-top: 1.3rem;
+padding-bottom: 1.1rem;
+padding-right: 5rem;
+}
+.navbar .navbar-brand img{
+    width: 12.5rem;
+    height: 2.5rem;
+}
+.navbar .menus{
+    gap: 20px;
+    display: flex;
+    padding-top: .5rem;
+    margin-right: -1.6rem;
+}
+.menus li, .menus a{
+    color: #302f2f;
+    text-decoration: none;
+    list-style: none;
+}
+.menus a:hover{
+color: var(--azul-padrao);
+}
+.navbar .navbar-btn .btn{
+    width: 5rem;
+    height: 2.5rem;
+    border-radius: 15px;
+    background-color: var(--azul-padrao);
+    margin-top: -5px;
+}
+.navbar .navbar-btn #btn-login{
+color: var(--azul-padrao);
+background-color: #fff;
+border: 2px solid #0495d3;
+}
+.navbar .navbar-btn #btn-login:hover{
+    color: #fff;
+background-color: #004080;
+border: none;
+}
+.navbar .navbar-btn #btn-cadastro{
+    color: #fff;
+    width: 6.4rem;
+    margin-left: .7rem;
+    }
+    .navbar .navbar-btn #btn-cadastro:hover{
+        background-color: #004080;
+    }
+    /* ============================================= Banner =============================================== */
+   .banner {
+    margin-top: 7.5rem;
+   } 
+   .banner img{
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+    }
+    .banner .texto-ban{
+        position: absolute;
+        top: 33%;
+        left: 9%;
+    }
+    .texto-ban h4{
+        color: #012141;
+    }
+    .texto-ban h1{
+        color: #0495d3;
+    }
+    .texto-ban .btn{
+        margin-top: .5rem;
+        width: 11rem;
+        height: 2.7rem;
+        border-radius: 10px;
+        color: #fff;
+        background-color: #0495d3;
+    }
+    .texto-ban .btn:hover{
+        background-color: #012141;
+        color: #fff;
+    }
+
+    /* ================================== Cars dentro do banner ================================ */    
+.cards-inicio{
+    position: absolute;
+top: 66%;
+left: 9%;
+}
+.cards-inicio .cards-ini{
+    background-color: #fff;
+    margin-right: 2.5rem;
+    margin-top: 2rem;
+    padding: 2.4rem 1.5rem;
+    border-radius: 5px;
+    height: 18rem;
+}
+.cards-inicio .primeiro{
+    background-color: #048cc7f8;
+}
+.cards-inicio .tp1{
+    color: #fff;
+}
+.cards-inicio .ultimo{
+    margin-right: -1rem;
+}
+.cards-inicio h4 {
+    color: #0253a3;
+    font-size: 1.9rem;
+    margin-bottom: .9rem;
+} 
+.cards-inicio h5{
+    color: #004080;
+    margin-bottom: 1.8rem;
+    font-size: 1.3rem;
+}
+    
+    /* ================================== Corpo ================================ */
+    .corpo .agendar-whatsapp .btn{
+position: fixed;
+top: 85%;
+right: 2%;
+z-index: 1000;
+background-color: #03b403;
+width: 3.5rem;
+height: 3.5rem;
+border-radius: 50%;
+color: #fff;
+font-size: 1.6rem;
+
+animation: float 3s ease-in-out infinite;
+}
+.corpo .agendar-whatsapp #btn-agendar{
+    top: 70%; 
+    background-color: #017efc;
+    font-size: 1.4rem;
+    width: 3.8rem;
+height: 3.8rem;
+}
+.corpo .agendar-whatsapp #btn-agendar:hover{
+    background-color: #04519e;
+}
+.corpo .agendar-whatsapp #btn-agendar p{
+    font-size: .7rem;
+    margin-top: -5px;
+    margin-left: -3px;
+}
+
+    @keyframes float {
+        0%, 100%{
+          transform: translateY(0);  
+        }
+        50% {
+            transform: translateY(-18px);
+        }
+    }    
+    .corpo .agendar-whatsapp .btn:hover{
+        background-color: #027e02;
+    }
+/*  ================= banner Agenda já ============== */
+    .ban-agendar-consulta{
+        background-color: var(--azul-padrao);
+        padding: 4rem;
+        margin-top: 4rem;
+    }
+    .ban-agendar-consulta h2{
+        color: #fff;
+        font-size: 1.6rem;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+    .ban-agendar-consulta p{
+        color: #fff;
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .ban-agendar-consulta .b{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ban-agendar-consulta .btn{
+        width: 20rem;
+        height: 3rem;
+        border: 2px solid #fff;
+        color: #fff;
+    }
+    .ban-agendar-consulta .btn i{
+        padding-right: 5px;
+    }
+    .ban-agendar-consulta .btn:hover{
+        border: none;
+        color: var(--azul-padrao);
+        background-color: #fff;
+    }
+    /* Estilo dos Titulos */
+    .titulo-corpo .titulo{
+        text-align: center;
+        color: #0f3a64;
+        font-weight: 500;
+        font-size: 2rem;
+        margin-top: 2.5rem;
+    }
+    .titulo-corpo p{
+        text-align: center;
+        color: #424242;
+    }
+    .titulo-corpo .linha{
+        font-weight: 800;
+        color: var(--azul-padrao);
+        margin-top: -1.3rem;
+        margin-bottom: 4rem;
+    }
+    /* ============================= Secção sobre ====================== */
+    .sobre .lado1-sobre img{
+        width: 40vw;
+        height: 78vh;
+        margin-bottom: 1.5rem;
+    }
+    .sobre .lado2-sobre{
+        padding-left: 2rem;
+    }
+    .lado2-sobre .text-inicial-sobre{
+        font-weight: 700;
+        color: #004080;
+        margin-bottom: 1.4rem;
+        text-align: center;
+    }
+    .lado2-sobre .subtitulos-about{
+        color: #022e5a;
+        text-align: center;
+        margin: .7rem 0;
+    }
+    .lado2-sobre li{
+        list-style: none;
+        margin-bottom: 2rem;
+        font-weight: 600;
+    }
+    
+    .lado2-sobre li i{
+        margin-right: 1rem;
+        font-size: 1.3rem;
+        background-color: var(--azul-padrao);
+        padding: 9px 11px;
+        border-radius: 50%;
+        color: #fff;
+    }
+    /* Cards depois da secção sobre */
+.sobre .depois-sobre{
+    margin-top: 3rem;
+}
+.depois-sobre .cards-d-sobre{
+    box-shadow: 0 0 10px 1px #b4b4b4d5;   
+    margin-top: 1rem;
+    border-radius: 7px;
+    padding: 1.8rem 2rem;
+    margin-right: 8rem;
+    display: flex;
+}
+
+.depois-sobre .cards-d-sobre:last-child{
+    margin-right: 0;
+}
+.cards-d-sobre .icone-card-sobre h4{
+    font-size: 2.8rem;
+    margin-right: 2rem;
+    color: #004080;
+    margin-top: .5rem;
+}
+.cards-d-sobre .texto-card-sobre h5{
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: .6rem;
+    color: #464545;
+}
+.segundo-sobre{
+    margin-top: 6rem;
+}
+.segundo-sobre img#img-gps-sobre{
+    height: 90vh;
+}
+.segundo-sobre h4#tis-gps{
+text-align: left;
+}
+.gps-sobre{
+    display: flex;
+}
+.gps-sobre .icone-gps-sobre{
+    margin-top: 11px;
+    margin-right: .5rem;
+}
+.gps-sobre .icone-gps-sobre i{
+        font-size: 1.3rem;
+        padding: 9px 12px;
+        border-radius: 5px;
+        font-size: 1.5rem;
+    }
+    /* ================================= Nossos Serviços ================================= */
+    .servicos{
+        background-image: url('../imagens/fundo2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 5rem 0;
+    }
+    .servicos .cards-servicos{
+background-color: #ffffffd7;
+padding: 2rem 1rem;
+width: 30%;
+margin: 1rem;
+box-shadow: 0 0 10px #0202029a;
+border-radius: 5px;
+    }
+
+    .cards-servicos h4 , .cards-servicos h5, .cards-servicos p{
+        text-align: center;
+    }
+    .cards-servicos p{
+        color: #313131;
+    }
+    .cards-servicos h4{
+        color: #095aaa;
+        font-size: 2rem;
+    }
+    .cards-servicos h5{
+        color: #004080;
+        font-weight: 600;
+    }
+/* ===================================== Estilo Especialidades ================== */
+    .especialidades .botoes-especialidade{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+        margin-bottom: 4.6rem;
+    }
+    .botoes-especialidade .btn{
+        background-color: #017efc;
+        color: #fff;
+        transition: .3s;
+    }
+    .botoes-especialidade .btn:hover{
+        background-color: #013d79;
+        color: #fff;
+    }
+    .especialidades .secao-esp{
+display: flex;
+    }
+    .secao-esp .lado1-especialidade{
+        width: 36vw;
+    }
+    .secao-esp .lado1-especialidade img{
+        width: 100%;
+    }
+    .secao-esp .lado2-especialidade{
+        margin-left: 2rem;
+    }
+    .lado2-especialidade .titulo-especialidade{
+        font-size: 2.4rem;
+    color: #004080;
+    margin-bottom: .8rem;
+    }
+    .lado2-especialidade .pos-titulo{
+font-size: 1.1rem;
+    color: #021931;
+    }
+    .lado2-especialidade p{
+        margin-top: 2rem;
+            color: #242527;
+            }
+            .lado2-especialidade .btn{
+                width: 12rem;
+                height: 3rem;
+                border: 2px solid #017efc;
+                color:#017efc;
+                margin-top: 2rem;
+            }
+            .lado2-especialidade #btn-farmacologia{
+                margin-top: .4rem;
+            }
+            .lado2-especialidade .btn i{
+                padding-right: 5px;
+            }
+            .lado2-especialidade .btn:hover{
+                border: none;
+                color: #fff;
+                background-color: #023364;
+                transform: translateY(2px);
+            }
+            /*  =================== Ocultar outras especialidades ========== */
+.especialidades .secao-cardiologia{
+    display: none;
+}
+.especialidades .secao-hepatologia{
+    display: none;
+}
+.especialidades .secao-pediatria{
+    display: none;
+}
+.especialidades .secao-oftamologia{
+    display: none;
+}
+.especialidades .secao-farmacologia{
+    display: none;
+}          
+/*  ======================= Banner depois da Especialidade ================= */
+.banner-depois-especialidade{
+    margin-top: 4rem;
+    background-color: #429cf7;
+    padding: 4rem 0;
+    height: 55vh;
+    padding-left: 12rem;
+}
+.banner-depois-especialidade .texto-ban-dpes h2{
+font-size: 1.8rem;
+color: white;
+}
+.banner-depois-especialidade .texto-ban-dpes p{
+    color: white;
+    margin-top: 2rem;
+    }
+    
+    .banner-depois-especialidade .texto-ban-dpes  .btn{
+        width: 12rem;
+        height: 3rem;
+        border: 2px solid #fff;
+        color:#fff;
+        margin-top: 1rem;
+    }
+    .banner-depois-especialidade .texto-ban-dpes .btn i{
+        padding-right: 5px;
+    }
+    .banner-depois-especialidade .texto-ban-dpes  .btn:hover{
+        border: none;
+        color: #429cf7;
+        background-color: #fff;
+    }
+    .banner-depois-especialidade .img-ban-dpes img{
+        margin-top: -2rem;
+        height: 98%;
+        transition: .5s;
+    }
+    .banner-depois-especialidade .img-ban-dpes img:hover{
+        transform: translateY(-5px);
+    }
+    /* ================================== Secão medicos ================== */
+    .medicos .cards-medicos{
+        box-shadow: 0 0 7px #b4b3b3d7;
+        padding: 2rem 1rem;
+        margin: 1.5rem;
+        border-radius: 5px;
+        display: flex;
+    }
+    .medicos{
+        padding-left: 4rem;
+    }
+    .medicos .img-medico img{
+        border-radius: 50%;
+        width: 10rem;
+        height: 10rem;
+    }
+    .medicos .conteteudo-card-medico {
+        margin-left: 2rem;
+    }
+    .conteteudo-card-medico .text-medico .nome-medico{
+        font-size: 1.3rem;
+        color: #004080;
+    }
+    
+    .text-medico .cargo-medico{
+        color: #3b3b3b;
+    }
+    .text-medico .breve-a{
+        font-size: .9rem;
+    }
+   .text-medico .linha-medico{
+    margin-top: -1.1rem;
+    margin-bottom: 1.1rem;
+   }
+    .conteteudo-card-medico .text-medico .nome-medico{
+        font-size: 1.3rem;
+        color: #004080;
+    }
+     .redes-medicos a{
+        font-size: .9rem;
+        margin-right: 10px;
+        padding: 6px 8px;
+        background-color: #e9e9e9;
+        border-radius: 50%;
+        color: #615858;
+       }
+       .redes-medicos a:hover{
+        background-color: #0257ac;
+        color: #fff;
+       }
+       /* ============================= Dicas Medicas =================== */
+       .dicas .cards-dicas{
+        box-shadow: 0 0 25px #cccbcb;
+        padding: .5px;
+        border-radius: 12px;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        transition: .3s;
+       }
+       .dicas .cards-dicas:last-child{
+        margin-right: -3rem;
+       }
+       .dicas .cards-dicas:first-child{
+        margin-left: -1rem;
+       }
+       .cards-dicas img{
+        width: 100%;
+        border-radius: 12px 12px 0 0 ;
+       }
+       .cards-dicas .text-dicas{
+        padding: .8rem 1.5rem;
+       }
+       .text-dicas h4{
+        margin-bottom: .5rem;
+        color: #02509e;
+       }
+       /* ============== */
+       .dicas .dica01:hover{
+        transform: translateY(-12px);
+       }
+       .dicas .dica02:hover{
+        transform: translateY(-12px);
+       }
+       .dicas .dica03:hover{
+        transform: translateY(-12px);
+       }
+       /* ================ Banner depois das Dicas ============== */
+       .ban-d-dicas{
+    margin-top: 3rem;
+    background-color: #d5e9ffef;
+    padding: 5rem 0;
+    }
+    .ban-d-dicas p#breve-texto-vantagens{
+        color: #414040;
+        margin-bottom: 2rem;
+    }
+    .bdc-lado1 .lvtg{
+        display: flex;
+        margin: 10px 0;
+    }
+    .ban-d-dicas .bdc-lado1 h4{
+        font-size: 2rem;
+        color: #023b74;
+        margin-bottom: 1.5rem;
+    }
+    .lvtg .icone-vtg{
+        margin-top: 1rem;
+    }
+    .lvtg .icone-vtg i{
+        padding: 12px 17px;
+        border-radius: 5px;
+        font-size: 1.8rem;
+        background-color: #013d79;
+        color: #fff;
+        margin-right: 1.5rem;
+    }
+  .lvtg  .titulo-lista-vantagens{
+    color: #012141;
+    font-size: 1.1rem;
+  }
+  .bdc-lado2 img{
+    width: 100%;
+    height: 80vh;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+  }
+  /* =================================== Contacto ================================= */
+  .contacto .contacto1{
+    display: flex;
+  }
+
+  .contacto .cd-contacto{
+    padding: 1.8rem;
+    box-shadow: 0 0 15px #d1d0d0;
+    border-radius: 10px;
+    margin: .6rem;
+    transition: .3s;
+  }
+  .contacto .cd-contacto:first-child{
+    margin-left: 0;
+  }
+  .contacto .cd-contacto i{
+    padding: 10px 14px;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    background-color: #075db3;
+    color: #fff;
+  }
+  .contacto .cd-contacto p , .contacto .cd-contacto h4{
+    text-align: center;
+  }
+  .contacto .cd-contacto h4{
+    color: #083868;
+  }
+ .contacto-email:hover{
+    transform: translateY(-8px);
+ }
+ .contacto-sede:hover{
+    transform: translateY(-8px);
+ }
+ .contacto-fone:hover{
+    transform: translateY(-8px);
+ }
+/* =============================================== RODAPE ======================= */
+.rodape{
+    margin-top: 7rem;
+    background-color: #2c2c2c;
+    padding: 5rem 0;
+    padding-bottom: 0;
+}
+.rodape p , .rodape h4 , .rodape a , .rodape li{
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+.c-rodape{
+    margin-left: -1rem;
+}
+.cdrp-01{
+    margin-right: 8rem;
+    margin-left: 0;
+}
+.rodape .subtitulo-rodape{
+    margin-bottom: 1.4rem;
+}
+.rodape i{
+    padding-right: .5rem;
+}
+.rodape li{
+    margin-top: .5rem;
+}
+.rodape .cdrp-01 img{
+    width: 85%;
+    height: 13vh;
+    margin-bottom: 1.1rem;
+}
+.rodape .footer-rodape{
+    padding-top: 2rem;
+    background-color: #004080;
+    margin-top: 6rem;
+    margin-bottom: 0;
+    padding-bottom: 1px;
+}
+.footer-rodape p{
+    text-align: center;
+    margin-top: -10px;
+    font-size: 14px;
+}
+.rodape a:hover{
+    text-decoration: underline;
+    color: #b1d6fa;
+}
+.rodape .botao-rodape .btn{
+        width: 20rem;
+        height: 3rem;
+        border: 2px solid #fff;
+        color: #fff;  
+    }
+    .rodape .botao-rodape .btn i{
+        padding-right: 5px;
+    }
+    .rodape .botao-rodape .btn:hover{
+        background-color: #fff;
+        color: black;
+    }
+ 

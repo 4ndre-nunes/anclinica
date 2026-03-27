@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+     <link rel="shortcut icon" href="../imagens/favicon.png" type="image/x-icon">
+    <title>AN Clinica - Painel Paciente</title>
+    <!-- Estilo Padrão -->
+     <link rel="stylesheet" href="../estilos/style-paciente.css">
+     <link rel="stylesheet" href="../estilos/style.css">
+     <link rel="stylesheet" href="../estilos/style-agendar-paciente.css">
+    <!-- Boostrap -->
+     <link rel="stylesheet" href="../_frameworks/Boostrap 5/bootstrap-icons/bootstrap-icons.css">
+     <link rel="stylesheet" href="../_frameworks/Boostrap 5/bootstrap/css/bootstrap-grid.css">
+     <link rel="stylesheet" href="../_frameworks/Boostrap 5/bootstrap/css/bootstrap-reboot.css">
+     <link rel="stylesheet" href="../_frameworks/Boostrap 5/bootstrap/css/bootstrap-utilities.css">
+     <link rel="stylesheet" href="../_frameworks/Boostrap 5/bootstrap/css/bootstrap.css">
+     <link rel="stylesheet" href="../_frameworks/Boostrap 5/bootstrap/css/bootstrap.rtl.css">
+     <!-- Biblioteca AOS -->
+      <link rel="stylesheet" href="../_frameworks/biblioteca-aos.css">
+</head>
+<body>
+<main class="corpo">
+    <header class="cabecalho">      
+<nav class="navbar">
+<div class="navbar-brand">
+<img src="../imagens/logo.png" alt="logo ANClinica" id="logo">
+</div>
+<ul class="menus">
+    <li><a href="painel_paciente.html">Home</a></li>
+    <li><a href="minhas_consultas.html">Minhas Consultas</a></li>
+    <li><a href="agendar_consulta.html">Agendar</a></li>
+</ul>
+</nav>
+    </header>
+    <article class="body" style="margin-top: 20vh;">
+        <form action="" method="post" data-aos="zoom-in">
+                <h3> Agendar Consulta</h3>
+                <p>Preencha o formulario com os seus dados e da consulta</p>
+            <label for="nome_paciente">Nome do Paciente</label>
+            <input type="text" id="nome_paciente" name="nome_paciente">
+            <label for="bi_paciente">Nº BI</label>
+            <input type="text" id="bi_paciente" name="bi_paciente">
+            <label for="nascimento_paciente">Data de Nascimento</label>
+            <input type="date" id="nascimento_paciente" name="nascimento_paciente">
+            <label for="sexo_paciente">Sexo</label>
+            <select name="sexo_paciente" id="sexo_paciente">
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+            </select>
+            <label for="altura_paciente">Altura</label>
+            <input type="number" id="altura_paciente" name="altura_paciente">
+            <label for="peso_paciente">Peso</label>
+            <input type="number" id="altura_paciente" name="peso_paciente">
+            <label for="especialidade_paciente">Especialidade</label>
+            <select name="especialidade_paciente" id="especialidade_paciente">
+        <option value="neurologia">Neurologia</option>   <option value="cardiologia">Cardiólogia</option>
+        <option value="hepatologia">Hepatologia</option>   <option value="pediatria">Pediatria</option>
+        <option value="oftamologia">Oftamologia</option>   <option value="farmacologia">Farmacologia</option>
+            </select>
+            <label for="medico_paciente">Escolha o Médico</label>
+            <select name="medico_paciente" id="medico_paciente">
+                <option value="maria">Maria A. Álvaro</option>   <option value="joel">Joel H. Nunes</option>
+                <option value="lidia">Lídia A. João</option>   <option value="pediatria">Vincezo M. Cassano</option>
+                <option value="marcelina">Marcelina André</option>   <option value="antonio">António H. Zacarias</option>
+                    </select>
+                    <label for="sintomas_paciente">Descreva os Sintómas</label>
+                    <textarea name="sintomas_paciente" id="sintomas_paciente" rows="10"></textarea>
+
+                    <button type="submit">Enviar</button>
+        </form>
+    </article>
+</main> 
+<footer>
+    <p>Copyright &copy; <a href="#">AN Dev - Soluções Web Eficiênte</a></p>
+    <p>Todos os direitos reservados - Julho de 2025</p>
+</footer>  
+          <!-- scripts -->
+    <div>
+         
+        <!-- Javascript Padrão -->
+        <script src="../javascript/script.js"></script>
+        <!-- Boostrap -->
+         <script src="../_frameworks/Boostrap 5/bootstrap-icons/bootstrap-icons.json"></script>
+         <script src="../_frameworks/Boostrap 5/bootstrap/js/bootstrap.js"></script>
+         <script src="../_frameworks/Boostrap 5/bootstrap/js/bootstrap.bundle.js"></script>
+         <script src="../_frameworks/Boostrap 5/bootstrap/js/bootstrap.esm.js"></script>
+         <!-- Biblioteca AOS -->
+         <script src="../_frameworks/bib lioteca-aos.js"></script>
+         <script>
+            AOS.init();
+           </script>
+       </div>
+</body>
+</html>

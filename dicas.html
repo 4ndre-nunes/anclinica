@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Favicon -->
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+<title>AN Clinica - Saude e Bem Estar</title>
+<!-- Estilo Padrão -->
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/responsividade.css">
+<!-- Boostrap -->
+    <link rel="stylesheet" href="_frameworks/Boostrap 5/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="_frameworks/Boostrap 5/bootstrap/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="_frameworks/Boostrap 5/bootstrap/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="_frameworks/Boostrap 5/bootstrap/css/bootstrap-utilities.css">
+    <link rel="stylesheet" href="_frameworks/Boostrap 5/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="_frameworks/Boostrap 5/bootstrap/css/bootstrap.rtl.css">
+    <!-- Biblioteca AOS -->
+    <link rel="stylesheet" href="_frameworks/biblioteca-aos.css">
+</head>
+<body>
+<!-- ====================================== CABECALHO DA PÁGINA =============================== -->
+<header class="cabecalho">
+    <aside class="topo">
+        <div class="email">
+<a href="https://" target="_blank"> <i class="bi bi-envelope"></i> marketing-anclinica@gmail.com</a>
+        </div>
+        <div class="contacto">
+<p> <i class="bi bi-telephone"></i> +244 974 300 400  +55 11 950 77 55</p>
+        </div>
+        <div class="redes">
+<abbr title="Facebook"><a href="https://" target="_blank"><i class="bi bi-facebook"></i></a></abbr>
+<abbr title="Instagram"><a href="https://" target="_blank"><i class="bi bi-instagram"></i></a></abbr>
+<abbr title="Twitter-X"><a href="https://" target="_blank"><i class="bi bi-twitter-x"></i></a></abbr>
+<abbr title="Tiktok"><a href="https://" target="_blank"><i class="bi bi-tiktok"></i></a></abbr>
+        </div>
+    </aside>
+<nav class="navbar">
+<div class="navbar-brand">
+<a href="index.html"><img src="imagens/logo.png" alt="logo ANClinica" id="logo"></a>
+</div> 
+<ul class="menus">
+<li><a href="index.html">Home</a></li>
+<li><a href="sobre.html">Sobre</a></li>
+<li><a href="servicos.html">Serviços</a></li>
+<li><a href="especialidade.html">Especialidades</a></li>
+<li><a href="medico.html">Medicos</a></li>
+<li><a href="dicas.html">Dicas</a></li>
+<li><a href="contacto.html">Contacto</a></li>
+</ul>
+<div class="navbar-btn">
+<a href="login.html" target="_blank">  <button class="btn" id="btn-login">Login</button></a>
+<a href="cadastrar.html" target="_blank">  <button class="btn" id="btn-cadastro">Cadastrar</button></a>
+</div>
+<!-- ======= icone Menu-Mobile ======-->
+<div class="icone-mobile">
+<img src="imagens/_icones/icone_open.png" class="mobile-icone" onclick="abrir_menu_mobile()">
+</div>
+
+<!-- ========== Menu Mobile =========== -->
+<div class="menu-mobile">
+<ul class="nav-mobile">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="sobre.html">Sobre</a></li>
+    <li><a href="servicos.html">Serviços</a></li>
+    <li><a href="especialidade.html">Especialidades</a></li>
+    <li><a href="medico.html">Medicos</a></li>
+    <li><a href="dicas.html">Dicas</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+</ul>
+<div class="nav-btn-mobile">
+    <a href="login.html" target="_blank">  <button class="btn" id="btn-login">Login</button></a>
+    <a href="cadastrar.html" target="_blank">  <button class="btn" id="btn-cadastro">Cadastrar</button></a>
+</div>
+
+</div>
+</nav>
+</header>
+<main class="corpo">
+     <!-- ====== Agendar pelo whatsap e normal ===== -->
+     <div class="agendar-whatsapp">
+        <abbr title="Agendar pelo whatsap"><a href="#"><button class="btn"><i class="bi bi-whatsapp"></i></button></a></abbr>
+        <abbr title="Agendar Consulta"><a href="login.html"><button class="btn" id="btn-agendar"><i class="bi bi-calendar-event"></i><p>Agendar</p></button></a></abbr>
+         </div>
+         
+ <div class="titulo-corpo" data-aos="fade-up" style="margin-top: 25vh;">
+    <h3 class="titulo" data-aos="fade-up">Dicas Médicas</h3>
+    <p data-aos="fade-up">Dicas médicas para cuidados da sua Saúde</p>
+    <p class="linha" data-aos="fade-up">_______________</p>
+</div> 
+<!-- ===================================== Secção Dicas ================================= -->
+<sectio class="dicas" id="Dicas">
+  <div class="container">
+    <div class="row">
+        <!-- card 1 -->
+        <div class="col-xl-4 col-md-6 cards-dicas dica01" data-aos="fade-up">
+        <img src="imagens/_dicas/mosquito.jpg" alt="">
+        <div class="text-dicas">
+        <h4 class="titulo-text-dicas"><i>Previna-se da Malaria</i></h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur vero reiciendis fugit, harum velit ad mollitia unde voluptate, esse animi, illo provident odit tempore.</p>
+        </div>
+        </div><!--  -->
+        <!-- card 2 -->
+        <div class="col-xl-4 col-md-6 cards-dicas dica02" data-aos="fade-up">
+        <img src="imagens/_dicas/dor-cabeca.jpg" alt="">
+        <div class="text-dicas">
+        <h4 class="titulo-text-dicas"><i>Vence a Dor de Cabeça</i></h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur vero reiciendis fugit, harum velit ad mollitia unde voluptate, esse animi, illo provident odit tempore.</p>
+        </div>
+        </div><!--  -->
+        <!-- card 3 -->
+        <div class="col-xl-4 col-md-6 cards-dicas dica03" data-aos="fade-up">
+        <img src="imagens/_dicas/gripe.jpg" alt="">
+        <div class="text-dicas">
+        <h4 class="titulo-text-dicas"><i>Combate Contra a Gripe</i></h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur vero reiciendis fugit, harum velit ad mollitia unde voluptate, esse animi, illo provident odit tempore.</p>
+        </div>
+        </div><!--  -->
+    </div>
+  </div>  
+</sectio>
+    
+<!-- ========= Banner depois das Dicas medicas ========== -->
+ <aside class="ban-d-dicas">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col-md-6 bdc-lado1">
+<h4 data-aos="fade-up">Vantagens de Agendar as suas Consultas de Forma Online</h4>
+<p id="breve-texto-vantagens" data-aos="fade-up">Na <strong>AN Clinica</strong> , Oferecemos uma plataforma moderna moderna de agendamento online que coloca o controle da sua saúde nas suas mãos. Evite filas, agenda já - tudo em poucos cliques!</p>
+<div class="lvtg">
+<div class="icone-vtg">
+    <i class="bi bi-clock-fill" data-aos="zoom-in"></i>
+</div>
+<div class="texto-vtg">
+<h6 class="titulo-lista-vantagens" data-aos="fade-up"> Agilidade no Atendimento</h6>
+<p class="lista-vantagens" data-aos="fade-up">Elimine o tempo de espera com um sistema rápido e disponivel 24h. Aqui você agenda no melhor horário, sem gastos.</p>
+</div>
+</div>
+
+<div class="lvtg">
+    <div class="icone-vtg">
+        <i class="bi bi-currency-dollar" data-aos="zoom-in"></i>
+    </div>
+    <div class="texto-vtg">
+    <h6 class="titulo-lista-vantagens" data-aos="fade-up"> Redução Tempo e Gastos</h6>
+    <p class="lista-vantagens" data-aos="fade-up">Garantimos que você possa agendar ou marcar as consultas consultas sem sequer com gasto zero.</p>
+    </div>
+    </div>
+
+    <div class="lvtg">
+        <div class="icone-vtg">
+            <i class="bi bi-exclamation-triangle-fill" data-aos="zoom-in"></i>
+        </div>
+        <div class="texto-vtg">
+        <h6 class="titulo-lista-vantagens" data-aos="fade-up">Tratamentos Com Urgência</h6>
+        <p class="lista-vantagens" data-aos="fade-up">Poderá garantir os seus tratamentos sem sequer saires de casa e nem esperares filas para seres atendido com urgência.</p>
+        </div>
+        </div>
+            </div>
+            <div class="col-xl-6 col-md-6 bdc-lado2">
+<img src="imagens/1.png" data-aos="zoom-in">
+            </div>
+        </div>
+        </div>
+ </aside>    
+    </main>
+    
+<footer class="rodape">
+    <div class="container">
+    <div class="row">
+        <!-- 1 -->
+        <div class="col-xl-4 col-md-6 c-rodape cdrp-01">
+        <img src="imagens/logo.png" alt="" data-aos="zoom-in">
+    <div class="cont-rod-01">
+        <p>Unimos tecnologia para oferecer um atendimento de qualidade a todos. Estamos Localizado em varias parte de Angola, especializado em consultas, acompanhamento contínuo e cuidados prevenitivos. </p>
+    </div>
+        </div><!--  -->
+        <!-- 2 -->
+        <div class="col-xl-2 col-md-6 c-rodape">
+            <h4 class="subtitulo-rodape" data-aos="fade-up">Parceiros</h4>
+           <li data-aos="fade-up">Africhael</li>
+           <li data-aos="fade-up">Shalina</li>
+           <li data-aos="fade-up">BFA</li>
+           <li data-aos="fade-up">Medicare</li>
+           <li data-aos="fade-up">Unitel</li>
+           <li data-aos="fade-up">AN Dev</li>
+            </div><!--  -->
+            <!-- 3 -->
+        <div class="col-xl-3 col-md-6 c-rodape">
+            <h4 class="subtitulo-rodape" data-aos="fade-up">Nossas Sede</h4>
+           <li data-aos="fade-up"><i class="bi bi-geo-alt-fill"></i> Luanda - Golfe 2</li>
+           <li data-aos="fade-up"><i class="bi bi-geo-alt-fill"></i> Benguela - Praia Morena</li>
+           <li data-aos="fade-up"><i class="bi bi-geo-alt-fill"></i> Lisboa - Av. Castelo </li>
+           <li data-aos="fade-up"><i class="bi bi-geo-alt-fill"></i> Maputo - Ondjiva</li>
+           <li data-aos="fade-up"><i class="bi bi-geo-alt-fill"></i> São Paulo - Zona Sul </li>
+           <li data-aos="fade-up"><i class="bi bi-geo-alt-fill"></i> Rio de Janeiro - Quebrada</li>
+            </div><!--  -->
+                 <!-- 3 -->
+        <div class="col-xl-2 col-md-6 c-rodape">
+                <h4 class="subtitulo-rodape" data-aos="fade-up">Siga-nos</h4>
+                <li data-aos="fade-up"><a href="#"><i class="bi bi-facebook"></i> AN Clinica Oficial</a></li>
+                <li data-aos="fade-up"><a href="#"><i class="bi bi-instagram"></i> @an_clinica</a></li>
+                <li data-aos="fade-up"><a href="#"><i class="bi bi-tiktok"></i> @an_clinica</a></li>
+                <li data-aos="fade-up"><a href="#"><i class="bi bi-twitter-x"></i> @an_clinica</a></li>
+                <li data-aos="fade-up"><a href="#"><i class="bi bi-youtube"></i> @an_clinica</a></li>
+                <li data-aos="fade-up"><a href="#"><i class="bi bi-whatsapp"></i> +244 974 300 400</a></li>
+                
+                </div><!--  -->
+                          <!-- 4 -->
+        <div class="col-xl-2 col-md-6 botao-rodape">
+            <a href="#"><button class="btn" data-aos="zoom-in"><i class="bi bi-calendar-event-fill"></i> Agendar Consulta</button></a></div>
+            
+            </div><!--  -->
+    </div>
+    </div>        
+    <div class="footer-rodape">
+        <p>Copyright &copy; <a href="#">AN Dev - Soluções Web Eficiênte</a></p>
+        <p>Todos os direitos reservados - Julho de 2025</p>
+    </div>
+      
+      </footer>     
+      <div>
+             
+       <!-- Javascript Padrão -->
+       <script src="javascript/script.js"></script>
+       <!-- Boostrap -->
+        <script src="_frameworks/Boostrap 5/bootstrap-icons/bootstrap-icons.json"></script>
+        <script src="_frameworks/Boostrap 5/bootstrap/js/bootstrap.js"></script>
+        <script src="_frameworks/Boostrap 5/bootstrap/js/bootstrap.bundle.js"></script>
+        <script src="_frameworks/Boostrap 5/bootstrap/js/bootstrap.esm.js"></script>
+        <!-- Biblioteca AOS -->
+        <script src="_frameworks/bib lioteca-aos.js"></script>
+        <script>
+           AOS.init();
+          </script>
+      </div>
+</body>
+</html>

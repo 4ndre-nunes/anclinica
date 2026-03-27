@@ -1,0 +1,820 @@
+@charset "utf-8";
+
+@media screen and (max-width: 1296px) {
+.cabecalho .topo{
+    padding: 0 4rem;
+}
+.cabecalho .navbar{
+    padding: 0 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.1rem;
+    }
+    .banner img{
+        height: 150vh;
+    }
+    .cards-inicio .primeiro{
+        width: 90%;
+        margin-left: 0;
+    }
+    .cards-inicio .segundo{
+        margin-left: 8rem;
+        margin-top: 2rem;
+        margin-right: 10rem;
+    }
+    .cards-inicio .ultimo{
+        margin-right: -3rem;
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+    .agendar-whatsapp .btn{
+        margin-right: 2rem;
+    }
+}
+@media screen and (max-width: 1229px) {
+    .cards-inicio .primeiro{
+        width: 90%;
+        margin-left: 0;
+    }
+    .cards-inicio .segundo{
+        margin-left: 8rem;
+        margin-top: 2rem;
+        margin-right: 10rem;
+    }
+    .cards-inicio .ultimo{
+        margin-right: -3rem;
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 1206px) {
+    .cards-inicio .primeiro{
+        width: 90%;
+        margin-left: 0;
+    }
+    .cards-inicio .segundo{
+        margin-left: 4rem;
+        margin-top: 2rem;
+        margin-right: 5rem;
+    }
+    .cards-inicio .ultimo{
+        margin-right: -3rem;
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 1122px) {
+    .cards-inicio{
+    left: 5%;
+    }
+}
+@media screen and (max-width: 1199px) {
+    .cards-inicio{
+    left: 5%;
+    }
+    .cards-inicio .cards-ini{
+        margin: 0;
+    }
+    .cards-inicio .primeiro{
+
+        margin-left: 0;
+    }
+    .cards-inicio .segundo{
+        margin-left: -1rem;
+        margin-top: 2rem;
+        margin-right: 1.5rem;
+    }
+    .cards-inicio .ultimo{
+        margin-right: -3rem;
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+    .agendar-whatsapp .btn{
+        margin-right: 10px;
+    }
+
+}
+/* ============================ Tablet 01 =============== */
+@media screen and (max-width: 1062px) {
+    .navbar .icone-mobile img{
+        display: block;
+    }
+    .sobre .lado1-sobre img{
+        height: 83vh;
+        margin-left: 1rem;
+    }
+    .depois-sobre .cards-d-sobre{
+        width: 100vw;
+    }
+    .segundo-sobre img#img-gps-sobre{
+        height: 103vh;
+    }
+    .secao-esp .lado1-especialidade img{
+        height: 66vh;
+    } 
+    .banner-depois-especialidade .img-ban-dpes img{
+        margin-top: -2rem;
+        height: 96%;
+    }
+    .medicos .cards-medicos{
+        width: 100vw;
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+    .medicos .img-medico img{
+        width: 17rem;
+        height: 13rem;
+    }
+    .medicos .conteteudo-card-medico {
+        margin-top: 2rem;
+    }
+    .dicas .cards-dicas{
+        width: 73vw;
+        margin-top: 1.5rem;
+        margin-left: 5.5rem;
+       }
+       .dicas .cards-dicas:last-child{
+        margin-right: 0;
+       }
+       .dicas .cards-dicas:first-child{
+        margin-left: 5.5rem;
+       }
+       .cards-dicas img{
+        height: 60vh;
+       }
+       .bdc-lado2 img{
+        height: 87vh;
+      }
+      .contacto .contacto1{
+        display: block;
+      }
+      .contacto .cd-contacto{
+        width: 75vw;
+        margin: 0;
+        margin-left: 5rem;
+        margin-bottom: 1.5rem;
+      }
+      .contacto .cd-contacto:first-child{
+        margin-left: 5rem;
+      }
+      .cdrp-01{
+        margin-right: 1rem;
+        margin-left: 0;
+        width: 50%;
+    }
+    .rodape .row{
+        padding-left: 8rem;
+    }
+    .c-rodape{
+        margin-bottom: 2.5rem;
+    }
+
+    .cabecalho .topo{
+        padding: 0 5.5rem;
+        }
+        .navbar .icone-mobile img{
+            margin-right: 1rem;
+        }        
+    .cabecalho .navbar{
+    padding: 0 4rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.1rem;
+    }
+    .topo .redes{
+        display: none;
+    }
+    .navbar .menus{
+        display: none;
+    }
+    .cards-inicio .cards-ini{
+        margin-left: -1.2rem;
+    }
+    .banner img{
+        height: 150vh;
+    }
+    
+    .open{
+        display: block;
+    }
+    .navbar .navbar-btn .btn{
+        width: 7rem;
+    }
+    .navbar .navbar-btn #btn-cadastro{
+        width: 10rem;
+        }
+    
+        .nav-btn-mobile .btn{
+            display: none;
+        }
+        .menu-mobile {
+            position: fixed;
+            width: 85%;
+            height: 73vh;
+        }
+        .corpo .agendar-whatsapp .btn{
+            right: 6%;
+            }
+            .cards-inicio .cards-ini{
+                margin: 0;
+            }
+            .cards-inicio .primeiro{
+                width: 100%;
+                margin-left: 0;
+            }
+            .cards-inicio .segundo{
+                margin-left: -1rem;
+                margin-top: 2rem;
+                margin-right: 1.5rem;
+            }
+            .cards-inicio .ultimo{
+                margin-right: -3rem;
+                margin-top: 2rem;
+                margin-left: 0;
+            }
+}
+/* Aqui */
+@media screen and (max-width: 992px) {
+/*  */
+.sobre .lado1-sobre{
+    width: 100vw;
+}
+.sobre .lado2-sobre{
+    width: 100vw;
+}
+.sobre .lado1-sobre img{
+    width: 100%;
+    height: 83vh;
+    margin-left: 0;
+}
+.sobre{
+    display: block;
+}
+
+.servicos .cards-servicos{
+    padding: 2rem 1rem;
+    width: 45%;
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    margin-left: 1rem;
+        }
+.secao-esp .lado1-especialidade img{
+    height: 66vh;
+    width: 70vw;
+} 
+.secao-esp .lado2-especialidade{
+    width: 99vw;
+    margin-left: 0;
+    margin-top: 1rem;
+}
+.secao-esp .lado2-especialidade h4{
+    text-align: center;
+}
+.lado2-especialidade .pos-titulo{
+    margin-left: 32%;
+        }
+        .lado2-especialidade .btn{
+            margin-left: 35%;
+        }
+        .banner-depois-especialidade .img-ban-dpes img{
+    margin-top: -2rem;
+    height: 90%;
+}
+.banner-depois-especialidade .img-ban-dpes{
+    width: 40%;
+}
+.banner-depois-especialidade{
+    padding: 3rem 0;
+    padding-left: 1rem;
+}
+.banner-depois-especialidade .texto-ban-dpes{
+width: 60%;
+}
+ .banner-depois-especialidade .texto-ban-dpes  .btn{
+        margin-top: .9rem;
+    }
+.dicas .cards-dicas{
+    width: 73vw;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+   }
+   .dicas .cards-dicas:first-child{
+    margin-left: 2rem;
+   }
+   .cards-dicas img{
+    height: 63vh;
+   }
+   .ban-d-dicas .row{
+    display: block;
+   }
+   .ban-d-dicas .row .bdc-lado1{
+    width: 100vw;
+   }
+   .ban-d-dicas .row .bdc-lado2{
+    width: 100vw;
+   }
+  
+  .contacto .cd-contacto{
+    margin-left: -1rem;
+  }
+  .contacto .cd-contacto:first-child{
+    margin-left: -1rem;
+  }
+  .cdrp-01{
+    margin-right: 1rem;
+}
+.rodape .row{
+    padding-left: 7rem;
+}
+.c-rodape{
+    margin-bottom: 2.5rem;
+}
+/*  */
+    
+    .cards-inicio .primeiro{
+        width: 100%;
+        margin-left: 6rem;
+    }
+    .cards-inicio .segundo{
+        margin-left: 5rem;
+        margin-top: 2rem;
+        margin-right: 1.5rem;
+    }
+    .cards-inicio .ultimo{
+        margin-right: -8rem;
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+    .cabecalho .topo{
+        padding: 0 8rem;
+        } 
+    .cabecalho .navbar{
+    padding: 0 6.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.1rem;
+    }
+}
+@media screen and (max-width: 941px) {
+    .cards-inicio .primeiro{
+        margin-left: 4rem;
+    }
+    .cards-inicio .segundo{
+        margin-left: 3rem;
+    }
+    .corpo .agendar-whatsapp .btn{
+        right: 1%;
+        }
+}
+@media screen and (max-width: 870px) {
+    .cards-inicio .primeiro{
+        margin-left: 2rem;
+        width: 100%;
+    }
+    .cards-inicio .segundo{
+        margin-left: 1rem;
+    }
+    .corpo .agendar-whatsapp .btn{
+        right: 1%;
+        }
+}
+
+@media screen and (max-width: 817px) {
+    .cards-inicio .primeiro{
+        margin-left: 1rem;
+    }
+    .cards-inicio .segundo{
+        width: 100%;
+        margin: 0;
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+    .cards-inicio .ultimo{
+        width: 100%;
+        margin: 0;
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+    .banner img{
+        height: 200vh;
+    }
+    .cards-inicio h5 , .cards-inicio h4 , .cards-inicio p{
+        text-align: center;
+    }
+}
+/* Aqui */
+@media screen and (max-width: 804px){
+/*  */
+.secao-esp .lado1-especialidade img{
+    height: 66vh;
+    width: 88vw;
+} 
+ .lado2-especialidade .btn{
+            margin-left: 38%;
+        }
+        .medicos .cards-medicos{
+            margin-left: -1.5rem;
+        }
+.dicas .cards-dicas{
+    width: 100vw;
+    margin-top: 1.5rem;
+    margin-left: 0;
+   }
+   .dicas .cards-dicas:first-child{
+    margin-left: 0;
+   }
+   .cards-dicas img{
+    height: 66vh;
+   }
+  .contacto .cd-contacto{
+    margin-left: 3.5rem;
+  }
+  .contacto .cd-contacto:first-child{
+    margin-left: 3.5rem;
+  }
+.rodape .row{
+    padding-left: 9rem;
+}
+
+}
+@media screen and (max-width: 790px) {
+    .cabecalho .topo{
+    padding: 0 6rem;
+    }
+    
+.cabecalho .navbar{
+padding: 0 4rem;
+padding-top: 1.3rem;
+padding-bottom: 1.1rem;
+}
+
+ .topo .redes{
+    display: none;
+}
+.topo .contacto{
+    display: none;
+}
+.navbar .menus{
+    display: none;
+}
+.navbar .navbar-btn{
+    display: none;
+}
+.cards-inicio .cards-ini{
+    margin-left: -1.2rem;
+}
+.banner img{
+    height: 205vh;
+}
+
+.open{
+    display: block;
+}
+
+.banner .texto-ban{
+    position: absolute;
+    top: 33%;
+    left: 12%;
+}
+.cards-inicio{
+left: 14%;
+}
+.nav-btn-mobile .btn{
+    display: flex;
+    flex-direction: column;
+}
+.menu-mobile {
+    height: 83vh;
+}
+
+}
+/* AQUI */
+@media screen and (max-width: 767px){
+   /*  */
+   .contacto .cd-contacto{
+    margin-left: 0;
+  }
+  .contacto .cd-contacto:first-child{
+    margin-left: 0;
+  }
+  .secao-esp .lado1-especialidade{
+    width: 100vw;
+  }
+  .secao-esp .lado1-especialidade img{
+    width: 100%;
+} 
+
+   .sobre .lado1-sobre{
+    width: 100%;
+    padding-left: 12%;
+}
+.servicos .cards-servicos{
+    width: 100%;
+    margin-left: 0;
+        }
+        .banner-depois-especialidade{
+    display: block;
+    height: 105vh;
+}
+.banner-depois-especialidade .img-ban-dpes{
+    width: 100%;
+}
+.banner-depois-especialidade{
+    padding-left: 0;
+}
+.banner-depois-especialidade .texto-ban-dpes{
+width: 100%;
+}
+ .banner-depois-especialidade .texto-ban-dpes  .btn{
+        margin-top: .9rem;
+    }
+    .banner-depois-especialidade .img-ban-dpes img{
+        margin-top: 1rem;
+        height: 82.5%;
+    }
+.dicas .cards-dicas{
+    width: 75vw;
+    margin-top: 1.5rem;
+    margin-left: 0;
+   }
+   .dicas .cards-dicas:first-child{
+    margin-left: 0;
+   }
+   .cards-dicas img{
+    height: 63vh;
+   }
+   .ban-d-dicas .row{
+    display: block;
+   }
+   .ban-d-dicas .row .bdc-lado1{
+    width: 100vw;
+   }
+   .ban-d-dicas .row .bdc-lado2{
+    width: 100vw;
+   }
+  
+.rodape .row{
+    padding-left: 0;
+}
+.c-rodape{
+    margin-bottom: 2.5rem;
+}
+/*  */
+
+
+    
+    .cards-inicio .primeiro{
+        margin-left: .5rem;
+    }
+    .cards-inicio .segundo{
+        width: 100%;
+        margin: 0;
+        margin-top: 2rem;
+        margin-left: .5rem;
+    }
+    .cards-inicio .ultimo{
+        width: 100%;
+        margin: 0;
+        margin-top: 2rem;
+        margin-left: .5rem;
+    }
+    .cabecalho .topo{
+        padding: 0 8rem;
+        }
+    .cabecalho .navbar{
+    padding: 0 6rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.1rem;
+    }
+    .banner .texto-ban{
+        left: 15%;
+    }
+    
+}
+@media screen and (max-width: 767px){
+    .sobre .lado1-sobre img{
+        width: 80vw;
+        height: 90vh;
+        margin-left: -6rem;
+    }
+}
+@media screen and (max-width: 762px){
+    .sobre .lado1-sobre img{
+        margin-left: -5rem;
+    }
+}
+@media screen and (max-width: 707px){
+    .sobre .lado1-sobre img{
+        margin-left: -4rem;
+    }
+}
+@media screen and (max-width: 684px){
+    .dicas{
+        width: 100vw;
+    }
+     .cards-dicas{
+        width: 100%;
+        margin-top: 1.5rem;
+       }
+       .dicas .cards-dicas:first-child{
+        margin-left: 0;
+       }
+}
+@media screen and (max-width: 663px){
+    .sobre .lado1-sobre img{
+        margin-left: -3rem;
+    }
+}
+@media screen and (max-width: 652px){
+    .dicas .cards-dicas{
+        margin-left: 2rem;
+       }
+       .dicas .cards-dicas:first-child{
+        margin-left: 2rem;
+       }
+       .contacto .cd-contacto{
+        margin-left: 2rem;
+      }
+      .contacto .cd-contacto:first-child{
+        margin-left: 2rem;
+      }
+}
+
+@media screen and (max-width: 635px){
+    .sobre .lado1-sobre img{
+        margin-left: -2rem;
+    }
+}
+@media screen and (max-width: 604px){
+    .sobre .lado1-sobre img{
+        margin-left: -1rem;
+    }
+}
+@media screen and (max-width: 583px){
+    .sobre .lado1-sobre img{
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 653px) {
+    .cabecalho .topo{
+    padding: 0 6rem;
+    }
+    
+.cabecalho .navbar{
+padding: 0 4rem;
+padding-top: 1.3rem;
+padding-bottom: 1.1rem;
+}
+.banner .texto-ban{
+    position: absolute;
+    top: 33%;
+    left: 12%;
+}
+.cards-inicio{
+left: 9%;
+}
+.menu-mobile {
+    width: 94vw;
+    left: 3%;
+    right: 1%;
+}
+
+}
+@media screen and (max-width: 612px) {
+ 
+.cards-inicio{
+left: 6%;
+}
+}
+@media screen and (max-width: 591px) {
+    .cards-inicio{
+    left: 3%;
+    }
+    .cards-ini .primeiro , .cards-ini .segundo , .cards-ini .ultimo{
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 584px) {
+    .cards-inicio{
+    left: 2%;
+    }
+}
+@media screen and (max-width: 575px) {
+    .cards-inicio{
+    left: 1%;
+    }
+}
+@media screen and (max-width: 560px) {
+    .cards-inicio{
+    left: 0;
+    }
+    .lado2-especialidade .pos-titulo{
+        margin-left: 22%;
+            }
+            .lado2-especialidade .btn{
+                margin-left: 25%;
+            }
+
+}
+/*  */
+@media screen and (max-width: 524px) {
+    .banner-depois-especialidade .img-ban-dpes img{
+        height: 75%;
+    }
+}
+@media screen and (max-width: 561px) {
+    .medicos .img-medico img{
+        width: 10rem;
+        height: 10rem;
+    }
+    .conteteudo-card-medico .text-medico .nome-medico{
+        margin-top: -1rem;
+    }
+    .dicas .cards-dicas{
+width: 100vw;
+        margin-left: 0;
+       }
+       .dicas .cards-dicas:first-child{
+        width: 100vw;
+                margin-left: 0;
+               }
+               .contacto .cd-contacto{
+                width: 100vw;
+                margin-left: 0;
+              }
+              .contacto .cd-contacto:first-child{
+                margin-left: 0;
+              }
+              .rodape .row{
+                padding-left: 4rem;
+              }
+              /*  */
+              .cards-inicio{
+                width: 100vw;
+                }
+                .cards-inicio .cards-ini {
+                    width: 100%;
+                }
+              .sobre .lado1-sobre{
+                width: 100vw;
+              }
+              .sobre .lado1-sobre img{
+                width: 100vw;
+                margin-left: -3rem;
+            }
+            .lado2-especialidade .pos-titulo{
+                margin-left: 12%;
+                    }
+                    .lado2-especialidade .btn{
+                        margin-left: 12%;
+                    }
+                    .banner-depois-especialidade{
+                        height: 87vh;
+                    }
+                    /*  */
+                    .medicos{
+                        width: 100vw;
+                    }
+                    .medicos .cards-medicos{
+                        display: block;
+                        width: 100%;
+                    }
+                    .medicos .img-medico img{
+                        width: 18rem;
+                        height: 14rem;
+                    }
+                    .rodape .botao-rodape .btn{
+                        width: 15rem; 
+                    }
+}
+@media screen and (max-width: 462px) {
+    .cabecalho .topo{
+    padding: 0 3rem;
+    }
+    .cabecalho .topo .email{
+        width: 100vw;
+        }
+.cabecalho .navbar{
+padding: 0 1.5rem;
+padding-top: 1.3rem;
+padding-bottom: 1.1rem;
+} 
+.banner .texto-ban{
+    left: 8%;
+}
+}
+@media screen and (max-width: 351px) {
+    .cabecalho .topo{
+    padding: 0 1.5rem;
+    }
+    .cabecalho .navbar{
+        padding: 0;
+        padding-top: 1.3rem;
+        padding-bottom: 1.1rem;
+        } 
+        
+}
+@media screen and (max-width: 331px) {
+    .banner .texto-ban{
+        top: 24%;
+    }
+     
+}
