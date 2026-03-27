@@ -3,10 +3,10 @@
     let menuMobile = document.querySelector('.menu-mobile');
     if (menuMobile.classList.contains('open')) {
         menuMobile.classList.remove('open');
- document.querySelector('.mobile-icone').src = "imagens/_icones/icone_open.png" ;
+ document.querySelector('.mobile-icone').src = "../imagens/_icones/icone_open.png" ;
     } else {
         menuMobile.classList.add('open');
-      document.querySelector('.mobile-icone').src="imagens/_icones/icone_close.png";
+      document.querySelector('.mobile-icone').src="../imagens/_icones/icone_close.png";
     }
 }
 
