@@ -4,707 +4,251 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Favicon -->
-     <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
     <title>AN Clinica - Saude e Bem Estar</title>
-    <!-- Estilo Padrão -->
-     <link rel="stylesheet" href="estilos/style.css">
-     <link rel="stylesheet" href="estilos/responsividade.css">
-    <!-- Boostrap -->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-     
-     <!-- Biblioteca AOS -->
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+    <!-- Estilo -->
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/responsividade.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons (CORREÇÃO IMPORTANTE) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
+
 <body>
-<!-- ====================================== CABECALHO DA PÁGINA =============================== -->
-    <header class="cabecalho">
-        <aside class="topo">
-            <div class="email">
-<a href="#" target="_blank"> <i class="bi bi-envelope"></i> marketing-anclinica@gmail.com</a>
-            </div>
-            <div class="contacto">
-<p> <i class="bi bi-telephone"></i> +244 974 300 400  +55 11 950 77 55</p>
-            </div>
-            <div class="redes">
-    <abbr title="Facebook"><a href="#" target="_blank"><i class="bi bi-facebook"></i></a></abbr>
-    <abbr title="Instagram"><a href="#" target="_blank"><i class="bi bi-instagram"></i></a></abbr>
-   <abbr title="Twitter-X"><a href="#" target="_blank"><i class="bi bi-twitter-x"></i></a></abbr>
-    <abbr title="Tiktok"><a href="#" target="_blank"><i class="bi bi-tiktok"></i></a></abbr>
-            </div>
-        </aside>
+
+<header class="cabecalho">
+    <aside class="topo">
+        <div class="email">
+            <a href="#"><i class="bi bi-envelope"></i> marketing-anclinica@gmail.com</a>
+        </div>
+        <div class="contacto">
+            <p><i class="bi bi-telephone"></i> +244 974 300 400  +55 11 950 77 55</p>
+        </div>
+        <div class="redes">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-twitter-x"></i></a>
+            <a href="#"><i class="bi bi-tiktok"></i></a>
+        </div>
+    </aside>
+
 <nav class="navbar">
 <div class="navbar-brand">
 <a href="index.html"><img src="imagens/logo.png" alt="logo ANClinica" id="logo"></a>
 </div>
+
 <ul class="menus">
-    <li><a href="#Home">Home</a></li>
-    <li><a href="#Sobre">Sobre</a></li>
-    <li><a href="#Servico">Serviços</a></li>
-    <li><a href="#Especialidade">Especialidades</a></li>
-    <li><a href="#Medico">Medicos</a></li>
-    <li><a href="#Dicas">Dicas</a></li>
-    <li><a href="#Contacto">Contacto</a></li>
+<li><a href="#Home">Home</a></li>
+<li><a href="#Sobre">Sobre</a></li>
+<li><a href="#Servico">Serviços</a></li>
+<li><a href="#Especialidade">Especialidades</a></li>
+<li><a href="#Medico">Medicos</a></li>
+<li><a href="#Dicas">Dicas</a></li>
+<li><a href="#Contacto">Contacto</a></li>
 </ul>
+
 <div class="navbar-btn">
-    <a href="login.html" target="_blank">  <button class="btn" id="btn-login">Login</button></a>
-    <a href="cadastrar.html" target="_blank">  <button class="btn" id="btn-cadastro">Cadastrar</button></a></div>
+<a href="login.html"><button class="btn" id="btn-login">Login</button></a>
+<a href="cadastrar.html"><button class="btn" id="btn-cadastro">Cadastrar</button></a>
 </div>
-<!-- ======= icone Menu-Mobile ======-->
+
 <div class="icone-mobile">
-    <img src="imagens/_icones/icone_open.png" class="mobile-icone" onclick="abrir_menu_mobile()">
- </div>
+<img src="imagens/_icones/icone_open.png" class="mobile-icone" onclick="abrir_menu_mobile()">
+</div>
 
-<!-- ========== Menu Mobile =========== -->
- <div class="menu-mobile">
-    <ul class="nav-mobile">
-        
-    <li><a href="#Home">Home</a></li>
-    <li><a href="#Sobre">Sobre</a></li>
-    <li><a href="#Servico">Serviços</a></li>
-    <li><a href="#Especialidade">Especialidades</a></li>
-    <li><a href="#Medico">Medicos</a></li>
-    <li><a href="#Dicas">Dicas</a></li>
-    <li><a href="#Contacto">Contacto</a></li>
-    </ul>
-    <div class="nav-btn-mobile">
-      <a href="login.html" target="_blank">  <button class="btn" id="btn-login">Login</button></a>
-      <a href="cadastrar.html" target="_blank">  <button class="btn" id="btn-cadastro">Cadastrar</button></a>
-    </div>
-    
- </div>
+<div class="menu-mobile">
+<ul class="nav-mobile">
+<li><a href="#Home">Home</a></li>
+<li><a href="#Sobre">Sobre</a></li>
+<li><a href="#Servico">Serviços</a></li>
+<li><a href="#Especialidade">Especialidades</a></li>
+<li><a href="#Medico">Medicos</a></li>
+<li><a href="#Dicas">Dicas</a></li>
+<li><a href="#Contacto">Contacto</a></li>
+</ul>
+
+<div class="nav-btn-mobile">
+<a href="login.html"><button class="btn" id="btn-login">Login</button></a>
+<a href="cadastrar.html"><button class="btn" id="btn-cadastro">Cadastrar</button></a>
+</div>
+</div>
 </nav>
-    </header>
-                    <!-- ================== Banner ============= -->
-     <article class="banner" id="Home">
-       <picture>
-        <source media="(max-width: 720px)" srcset="imagens/banner-ultima.jpg" >
-        <source media="(max-width: 817px)" srcset="imagens/banner-mobile.jpg" >
-        <source media="(max-width: 922px)" srcset="imagens/banner-tablet.jpg" >
-        <img src="imagens/banner-desktop.jpg" alt="banner" id="ban_banner">
+</header>
+
+<!-- Banner -->
+<article class="banner" id="Home">
+<picture>
+<source media="(max-width: 720px)" srcset="imagens/banner-ultima.jpg">
+<source media="(max-width: 817px)" srcset="imagens/banner-mobile.jpg">
+<source media="(max-width: 922px)" srcset="imagens/banner-tablet.jpg">
+<img src="imagens/banner-desktop.jpg" alt="banner" id="ban_banner">
 </picture>
-        <div class="texto-ban" data-aos="zoom-in">
-            <h4>Bem-Vindo a anClinica</h4>
-            <h1>ONDE O SEU BEM-ESTAR <br>
-                VEM EM PRIMEIRO LUGAR</h1>
-            <p>Não perca mais tempo agenda a sua consulta de forma rápida!</p>
-        </div>
-         <!-- ====== cards do inicio ==== -->
- <section class="cards-inicio">
-    <div class="container">
-      <div class="row">
-          <!-- card 1 -->
-          <div class="col-xl-5 col-md-6 cards-ini primeiro" data-aos="fade-up">
-              <h4 class="tp1"><i class="bi bi-heart-pulse-fill"></i></h4>
-              <h5 class="tp1">PRIORISAMOS A SUA SAÚDE</h5>
-              <p class="tp1"> Clínica, cada Paciênte é Único.<br> Com profissionais experientes, tecnólogias de ponta e atendimento humanizado, Garantimos diagnóticos precisos e conforto em cada visita. Aqui, a sua saúde está em boas mãos.</p>
-          </div>
-          <!-- card 2 -->
-          <div class="col-xl-3 col-md-6 cards-ini segundo" data-aos="fade-up">
-              <h4><i class="bi bi-capsule"></i></h4>
-              <h5>MELHORES REMEDIOS</h5>
-              <p>Garantimos o melhor tratamento com os melhores remedios a nivel mundial.</p>
-          </div>
-   <!-- card 3 -->
-   <div class="col-xl-3 col-md-6  cards-ini ultimo" data-aos="fade-up">
-      <h4><i class="bi bi-calendar-event"></i></h4>
-      <h5>CONSULTA ONLINE</h5>
-      <p>Agende as suas Consultas de forma online. Chega de esperar inumeras filas agenda já!</p>
-  </div>
-  
-      </div>
-    </div>
-   </section>
-  
-     </article>
-<!-- ====================================== CORPO DA PÁGINA ================================== -->
-    <main class="corpo">
-                    <!-- ====== Agendar pelo whatsap e normal ===== -->
- <div class="agendar-whatsapp">
-<abbr title="Agendar pelo whatsap"><a href="#"><button class="btn"><i class="bi bi-whatsapp"></i></button></a></abbr>
-<abbr title="Agendar Consulta"><a href="login.html"><button class="btn" id="btn-agendar"><i class="bi bi-calendar-event"></i><p>Agendar</p></button></a></abbr>
- </div>
- <!--  ========= Banner Agenda já ====== -->
- <aside class="container-fluid ban-agendar-consulta">
-<div class="row">
-<h2 data-aos="fade-up">MARCAR CONSULTAS AGORA É SIMPLES</h2>
-<p data-aos="fade-up">Aqui, você pode escolher o dia e a hora das suas consultas de forma rápida. <br>Agende as suas Consultas de forma online. Chega de esperar inumeras filas agenda já!</p>
-<div class="b">
-<a href="#"><button class="btn" data-aos="zoom-in"><i class="bi bi-calendar-event-fill"></i> Agendar Consulta</button></a></div>
+
+<div class="texto-ban" data-aos="zoom-in">
+<h4>Bem-Vindo a anClinica</h4>
+<h1>ONDE O SEU BEM-ESTAR <br>VEM EM PRIMEIRO LUGAR</h1>
+<p>Não perca mais tempo agenda a sua consulta de forma rápida!</p>
 </div>
- </aside>
- <!-- ====================================== Secção Sobre ================================== -->
- <section class="sobre" id="Sobre">
-    <div class="titulo-corpo" data-aos="fade-up">
-        <h3 class="titulo" data-aos="fade-up"> Sobre Nós</h3>
-        <p data-aos="fade-up">Somos a sua melhor escolha médica</p>
-        <p class="linha" data-aos="fade-up">_______________</p>
-    </div>
+
+<section class="cards-inicio">
 <div class="container">
-    <div class="row">
-<div class="col-xl-6 col-md-6 lado1-sobre">
-<img src="imagens/sobre.jpg" alt="sobre-img" data-aos="zoom-in">
-</div>
-<div class="col-xl-6 col-md-6 lado2-sobre">
-<h4 class="text-inicial-sobre" data-aos="fade-up"><i>Somos a AN Clinica - Quidar de você é a Nossa missão e obrigação!</i></h4>
-<p class="text-about" data-aos="fade-up">Na <strong>AN Clinica</strong>, unimos tecnologia, Humanização e excelência médica para oferecer um atendimento de qualidade e acessível a todos. Somos um centro médico moderno, localizado em varias parte de Angola, especializado em consultas, acompanhamento contínuo e cuidados prevenitivos. Contamos com uma equipe de profissionais altamente qualificados, prontos para atender você com carinho, ética e compromisso com sua saúde.</p>
-
-<h5 class="subtitulos-about" data-aos="fade-up"> <i>O que Oferecemos?</i></h5>
-<li data-aos="fade-up"> <i class="bi bi-calendar-event"></i>Atendimento rápido e agendamentos facilitados</li>
-<li data-aos="fade-up"> <i class="bi bi-hospital"></i>Especialidades Médicas Variadas</li>
-<li data-aos="fade-up"> <i class="bi bi-house-heart"></i>Ambiente confortavel e acolhedor</li>
-</div>
-    </div>
-</div>
-<!-- ======  Cards Depois do Sobre =======-->
-<div class="container depois-sobre">
 <div class="row">
-    <!-- Card 1 -->
-<div class="col-xl-3 col-md-6 cards-d-sobre cds1" data-aos="fade-up">
-<div class="icone-card-sobre">
-    <h4><i class="bi bi-clipboard-pulse"></i></h4>
-</div>
-<div class="texto-card-sobre">
-    <h5>12</h5>
-    <p>Especialidades</p>
-</div>
-</div>
-<!-- Card 2 -->
-<div class="col-xl-3 col-md-6 cards-d-sobre cds2" data-aos="fade-up">
-    <div class="icone-card-sobre">
-        <h4><i class="bi bi-award"></i></h4>
-    </div>
-    <div class="texto-card-sobre">
-        <h5>25</h5>
-        <p>Prêmios</p>
-    </div>
-    </div>
-    <!-- Card 3 -->
-<div class="col-xl-3 col-md-6 cards-d-sobre cds3" data-aos="fade-up">
-    <div class="icone-card-sobre">
-        <h4><i class="bi bi-hospital"></i></h4>
-    </div>
-    <div class="texto-card-sobre">
-        <h5>9</h5>
-        <p>Postos Físicos</p>
-    </div>
-    </div>
- </div>
-</div>
- <!-- =========== Sobre Segunda secção ======  -->
- <div class="container segundo-sobre">
-    <div class="row">
-<div class="col-xl-6 col-md-6 lado1-sobre">
-<img id="img-gps-sobre" src="imagens/bg_image_10.jpg" alt="sobre-img"data-aos="zoom-in">
-</div>
-<div class="col-xl-6 col-md-6 lado2-sobre">
-<h4 class="text-inicial-sobre" id="tis-gps" data-aos="fade-up">Agora já Podes nos encontra em qualquer parte onde estiveres!</h4>
-<p class="text-about" data-aos="fade-up">Sabias que - a <strong>AN Clinica</strong>, esta acessivel pra você em qualquer parte de Angola e em varios paises? Sim, já estamos com contigo em varias provincias do Nosso país e outros Paises que estiveres, contando com a nossa disponiblidade de ajudar e quidar da nação Angolana. <strong>Porquê escolher a AN Clinia? </strong>Porque aqui o foco é Você! Priorizamos agilidade, segurança e atendimento humanizado em cada consulta. <strong>Estamos localizados em:</strong></p>
-<!-- gps 1 -->
-<div class="gps-sobre" data-aos="fade-up">
-<li class="icone-gps-sobre"><span><i class="bi bi-geo-alt-fill"></i></span> </li>
-        <div class="content-gps-sobre">
-            <h5>Angola</h5>
-        <p>Luanda, Huambo, Buenguela, Malanje, Uige, Huíla e Namibe</p>
-        </div>
-</div>
-<!-- gps 2 -->
-<div class="gps-sobre">
-    <li class="icone-gps-sobre" data-aos="fade-up"><span><i class="bi bi-geo-alt-fill"></i></span> </li>
-            <div class="content-gps-sobre">
-                <h5 data-aos="fade-up">Moçambique</h5>
-            <p data-aos="fade-up">Maputo, Gaaza, Inhambane, Sofala, Zambézia, Nampula</p>
-            </div>
-    </div>
-<!-- gps 3 -->
-<div class="gps-sobre">
-    <li class="icone-gps-sobre" data-aos="fade-up"><span><i class="bi bi-geo-alt-fill"></i></span> </li>
-            <div class="content-gps-sobre">
-                <h5 data-aos="fade-up">Brasil</h5>
-            <p data-aos="fade-up">Brasilia, São Paulo, Rio de Janeiro, Sergipe, Baiha, e Minas Gerais</p>
-            </div>
-    </div>
-<!-- gps 4 -->
-<div class="gps-sobre">
-    <li class="icone-gps-sobre" data-aos="fade-up"><span><i class="bi bi-geo-alt-fill"></i></span> </li>
-            <div class="content-gps-sobre">
-                <h5 data-aos="fade-up">Portugal</h5>
-            <p data-aos="fade-up">Lisboa, Porto, Coimbra, Faro, Braga, Leiria</p>
-            </div>
-    </div>
-                          
-<!--  -->
-</div>
-    </div>
-</div>
- </section>
- <!-- Titulo nossos serviços -->
- <div class="titulo-corpo" data-aos="fade-up">
-    <h3 class="titulo" data-aos="fade-up"> Nossos Serviços</h3>
-    <p data-aos="fade-up">Temos para si os melhores seerviços médicos</p>
-    <p class="linha" data-aos="fade-up">_______________</p>
-</div> 
-<!-- ===================================== Secção Serviços================================= -->
- <section class="servicos" id="Servico">
- <div class="container">
-    <div class="row">
-        <!-- card 1 -->
-        <div class="col-xl-3 col-md-6 cards-servicos cs1" data-aos="fade-up">
-            <h4 class="icones-servicos"><i class="bi bi-calendar-event-fill"></i></h4>
-            <h5 class="nome-servico">Consultas Médicas Presenciais</h5>
-            <p>Em nossas consultas presencias, Garantimos atendimento humanizado, diagnóticos precisos e acompanhamento completo da sua Saúde</p>
-            </div>
-    <!-- card 2 -->
-<div class="col-xl-3 col-md-6 cards-servicos" data-aos="fade-up">
-    <h4 class="icones-servicos"><i class="bi bi-camera-video-fill"></i></h4>
-    <h5 class="nome-servico">Telemedicina com Segurança</h5>
-    <p> Consultas Online com qualidade, sigilo e a mesma atenção que você recebe presencialmente. Conecta-se com o cuidado que mereces</p>
-    </div>
-    <!-- Card 3 -->
-    <div class="col-xl-3 col-md-6 cards-servicos cs3" data-aos="fade-up">
-        <h4 class="icones-servicos"><i class="bi bi-droplet-half"></i></h4>
-        <h5 class="nome-servico">Exames Laboratorias</h5>
-        <p>Resultados precisos, com rapidez e confiaça. Nossa clínica realiza exames Laboratorias com equipamentos modernos e profissionais qualificados.</p>
-        </div>
-        <!-- Card 4 -->
-    <div class="col-xl-3 col-md-6 cards-servicos cs4" data-aos="fade-up">
-        <h4 class="icones-servicos"><i class="bi bi-activity"></i></h4>
-        <h5 class="nome-servico">Atendimento de Urgência Controlado</h5>
-        <p>Para situações imprevistas, temos atendimento rápido e eficaz. Nossa equipe está sempre pronta para prestar os primeiros cuidados</p>
-        </div>
-        <!-- Card 5 -->
-    <div class="col-xl-3 col-md-6 cards-servicos" data-aos="fade-up">
-        <h4 class="icones-servicos"><i class="bi bi-heart-pulse-fill"></i></h4>
-        <h5 class="nome-servico">Acompanhamento Pré-Natal</h5>
-        <p>Toda gente merece cuidado especial. Oferecemos acompanhamento pré-natal completo e exames ginecológicos com empatia, conforto e alto padrão de confiaça.</p>
-        </div>
-        <!-- Card 6 -->
-    <div class="col-xl-3 col-md-6 cards-servicos cs6" data-aos="fade-up">
-        <h4 class="icones-servicos"><i class="bi bi-person-fill"></i></h4>
-        <h5 class="nome-servico">Saúde Mental e Psicologia</h5>
-        <p>Sua saúde emocional também importa. Disponiblizamos psicólogos capacitados para para cuidar do seu bem-estar mental com escuta ativa, sigilo e acolhimento.</p>
-        </div>
 
-    <!--  -->
-    </div>
- </div>
-    
+<div class="col-xl-5 col-md-6 cards-ini primeiro" data-aos="fade-up">
+<h4><i class="bi bi-heart-pulse-fill"></i></h4>
+<h5>PRIORISAMOS A SUA SAÚDE</h5>
+<p>Clínica com profissionais experientes e atendimento humanizado.</p>
+</div>
+
+<div class="col-xl-3 col-md-6 cards-ini segundo" data-aos="fade-up">
+<h4><i class="bi bi-capsule"></i></h4>
+<h5>MELHORES REMEDIOS</h5>
+<p>Garantimos o melhor tratamento.</p>
+</div>
+
+<div class="col-xl-3 col-md-6 cards-ini ultimo" data-aos="fade-up">
+<h4><i class="bi bi-calendar-event"></i></h4>
+<h5>CONSULTA ONLINE</h5>
+<p>Agende de forma rápida.</p>
+</div>
+
+</div>
+</div>
 </section>
-<!-- Titulo nossos espe -->
-<div class="titulo-corpo" data-aos="fade-up">
-    <h3 class="titulo" data-aos="fade-up"> Especialidades</h3>
-    <p data-aos="fade-up">Aqui, voê encontra as melhores especialidades médicas</p>
-    <p class="linha" data-aos="fade-up">_______________</p>
-</div> 
-<!-- ===================================== Secção Especialidade================================= -->
- <section class="especialidades" id="Especialidade">
-<div class="container">
-    <div class="botoes-especialidade">
-    <button class="btn btn-esp" id="esp-neurologia" onclick="mostrar_neurologia()" data-aos="fade-down">Neurologia</button>
-    <button class="btn btn-esp" id="esp-cardiologia" onclick="mostrar_cardiologia()" data-aos="fade-down">Cardiólogia</button>
-    <button class="btn btn-esp" id="esp-hepatologia" onclick="mostrar_hepatologia()" data-aos="fade-down">Hepatologia</button>
-    <button class="btn btn-esp" id="esp-pediatria" onclick="mostrar_pediatria()" data-aos="fade-down">Pediatria</button>
-    <button class="btn btn-esp" id="esp-oftamologia" onclick="mostrar_oftamologia()" data-aos="fade-down">Oftamologia</button>
-    <button class="btn btn-esp" id="esp-oftamologia" onclick="mostrar_farmacologia()" data-aos="fade-down">Farmacologia</button>
-    </div>
-      <!-- ========================== Secção Neurologia ========================= -->
-      <div class="row secao-neurologia secao-esp">
-        <div class="col-xl-6 col-md-6 lado1-especialidade">
-<img src="imagens/_especialidades/neuro.jpg" alt="imagem Neurologia" data-aos="zoom-in">
-        </div>
-        <div class="col-xl-6 col-md-6 lado2-especialidade">
-            <h4 class="titulo-especialidade" data-aos="fade-up">Neurologia</h4>
-            <i class="pos-titulo" data-aos="fade-up">Tratamento e Neurocirurgias eficaz.</i>
-            <p data-aos="fade-up">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem minima nam sequi cum magni nisi pariatur, ipsum, ducimus deleniti eum blanditiis quod! Excepturi voluptate ipsam commodi eaque. Consequuntur, cupiditate distinctio? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi laudantium enim magnam eveniet rem temporibus quibusdam, officiis perferendis fugit aspernatur veniam. Magni dolorem quod fugit aliquam quia maxime, sequi odio.</p>
-            <a href="#"><button class="btn" data-aos="zoom-in"><i class="bi bi-calendar-event-fill"></i> Agendar Consulta</button></a>
-        </div>
-    </div> <!-- fim cardiologia -->
-    <!-- ========================== Secção Cardiologia ========================= -->
-    <div class="row secao-cardiologia secao-esp">
-        <div class="col-xl-6 col-md-6 lado1-especialidade">
-<img src="imagens/_especialidades/cardiologia.jpg" alt="imagem cardiologia" data-aos="zoom-in">
-        </div>
-        <div class="col-xl-6 col-md-6 lado2-especialidade">
-            <h4 class="titulo-especialidade" data-aos="fade-up">Cardiólogia</h4>
-            <i class="pos-titulo" data-aos="fade-up">Previna-se de infecções cardiácas!</i>
-            <p data-aos="fade-up">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem minima nam sequi cum magni nisi pariatur, ipsum, ducimus deleniti eum blanditiis quod! Excepturi voluptate ipsam commodi eaque. Consequuntur, cupiditate distinctio? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi laudantium enim magnam eveniet rem temporibus quibusdam, officiis perferendis fugit aspernatur veniam. Magni dolorem quod fugit aliquam quia maxime, sequi odio.</p>
-            <a href="#"><button class="btn" data-aos="zoom-in"><i class="bi bi-calendar-event-fill"></i> Agendar Consulta</button></a>
-        </div>
-    </div> <!-- fim-->
-      <!-- ========================== Secção Hepatologia ========================= -->
-      <div class="row secao-hepatologia secao-esp">
-        <div class="col-xl-6 col-md-6 lado1-especialidade">
-<img src="imagens/_especialidades/hepat.jpg" alt="imagem Hepatologia" data-aos="zoom-in">
-        </div>
-        <div class="col-xl-6 col-md-6 lado2-especialidade">
-            <h4 class="titulo-especialidade" data-aos="fade-up">Hepatologia</h4>
-            <i class="pos-titulo" data-aos="fade-up">Cuidamos da sua hepatite!</i>
-            <p data-aos="fade-up">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem minima nam sequi cum magni nisi pariatur, ipsum, ducimus deleniti eum blanditiis quod! Excepturi voluptate ipsam commodi eaque. Consequuntur, cupiditate distinctio? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi laudantium enim magnam eveniet rem temporibus quibusdam, officiis perferendis fugit aspernatur veniam. Magni dolorem quod fugit aliquam quia maxime, sequi odio.</p>
-            <a href="#"><button class="btn" data-aos="zoom-in"><i class="bi bi-calendar-event-fill"></i> Agendar Consulta</button></a>
-        </div>
-    </div> <!-- fim-->
-      <!-- ========================== Secção Pediatria ========================= -->
-      <div class="row secao-pediatria secao-esp">
-        <div class="col-xl-6 col-md-6 lado1-especialidade">
-<img src="imagens/_especialidades/pedia.jpg" alt="imagem Pediatria" data-aos="zoom-in">
-        </div>
-        <div class="col-xl-6 col-md-6 lado2-especialidade">
-            <h4 class="titulo-especialidade" data-aos="fade-up">Pediatria</h4>
-            <i class="pos-titulo" data-aos="fade-up">Os filhos são mais que Dadivas</i>
-            <p data-aos="fade-up">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem minima nam sequi cum magni nisi pariatur, ipsum, ducimus deleniti eum blanditiis quod! Excepturi voluptate ipsam commodi eaque. Consequuntur, cupiditate distinctio? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi laudantium enim magnam eveniet rem temporibus quibusdam, officiis perferendis fugit aspernatur veniam. Magni dolorem quod fugit aliquam quia maxime, sequi odio.</p>
-            <a href="#"><button class="btn" data-aos="zoom-in"><i class="bi bi-calendar-event-fill"></i> Agendar Consulta</button></a>
-        </div>
-    </div> <!-- fim -->
-      <!-- ========================== Secção Oftamologia ========================= -->
-      <div class="row secao-oftamologia secao-esp">
-        <div class="col-xl-6 col-md-6 lado1-especialidade">
-<img src="imagens/_especialidades/ofta.jpg" alt="imagem cardiologia" data-aos="zoom-in">
-        </div>
-        <div class="col-xl-6 col-md-6 lado2-especialidade">
-            <h4 class="titulo-especialidade" data-aos="fade-up">Oftamologia</h4>
-            <i class="pos-titulo" data-aos="fade-up">Amplie, melhore e qualifique a sua visão.</i>
-            <p data-aos="fade-up">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem minima nam sequi cum magni nisi pariatur, ipsum, ducimus deleniti eum blanditiis quod! Excepturi voluptate ipsam commodi eaque. Consequuntur, cupiditate distinctio? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi laudantium enim magnam eveniet rem temporibus quibusdam, officiis perferendis fugit aspernatur veniam. Magni dolorem quod fugit aliquam quia maxime, sequi odio.</p>
-            <a href="#"><button class="btn" data-aos="zoom-in"><i class="bi bi-calendar-event-fill"></i> Agendar Consulta</button></a>
-        </div>
-    </div> <!-- fim -->
-    <!-- ========================== Secção Farmacologia ========================= -->
-    <div class="row secao-farmacologia secao-esp">
-        <div class="col-xl-6 col-md-6 lado1-especialidade">
-<img src="imagens/_especialidades/farmacologia.jpg" alt="imagem Farmacologia" data-aos="zoom-in">
-        </div>
-        <div class="col-xl-6 col-md-6 lado2-especialidade">
-            <h4 class="titulo-especialidade" data-aos="fade-up">Farmacologia</h4>
-            <i class="pos-titulo" data-aos="fade-up">Para ti, temos os melhores remédios.</i>
-            <p data-aos="fade-up">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem minima nam sequi cum magni nisi pariatur, ipsum, ducimus deleniti eum blanditiis quod! Excepturi voluptate ipsam commodi eaque. Consequuntur, cupiditate distinctio? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi laudantium enim magnam eveniet rem temporibus quibusdam, officiis perferendis fugit aspernatur veniam. </p>
-<a href="#"><button class="btn" id="btn-farmacologia" data-aos="zoom-in"><i class="bi bi-calendar-event-fill"></i> Agendar Consulta</button></a>
-        </div>
-    </div> <!-- fim -->
+</article>
 
-</div>
- </section>
- <!-- =========== Banner depois da especialidade ======== -->
-<aside class="banner-depois-especialidade">
-    <div class="container">
-<div class="row">
-    <div class="col-xl-6 col-md-6 texto-ban-dpes">
-        <h2 data-aos="fade-up">Chega de Esperar Tantas Filas</h2>
-        <p data-aos="fade-up">Acabou o tempo de esperar tantas filas, gastar tanto tempo e recurso somente para agendar uma simples consulta, conosco você pode agendar as suas consultas médicas de forma rápida e acessivel.</p>
-        <div class="b">
-        <a href="#"><button class="btn" data-aos="zoom-in"><i class="bi bi-calendar-event-fill"></i> Agendar Consulta</button></a></div>
-        
-    </div>
-    <div class="col-xl-6 col-md-6 img-ban-dpes">
-<img src="imagens/mao-fone-f.png" alt="img ban" data-aos="zoom-in">
-    </div>
-</div>
-</div>
-</aside>
-<div class="titulo-corpo" data-aos="fade-up">
-    <h3 class="titulo" data-aos="fade-up">Nossos Medicos</h3>
-    <p data-aos="fade-up">A gente tem a melhor equipe médica</p>
-    <p class="linha" data-aos="fade-up">_______________</p>
-</div> 
-<!-- ===================================== Secção Medicos ================================= -->
- <section class="medicos" id="Medico">
-    <div class="container">
-        <div class="row">
-        <!-- card 1 -->
-        <div class="col-xl-5 col-md-6 cards-medicos" data-aos="fade-up">
-<div class="img-medico">
-    <img src="imagens/_doctor/06.jpg" alt="">
-</div>
-<div class="conteteudo-card-medico">
-<div class="text-medico">
-    <h4 class="nome-medico">Maria A. Álvaro </h4>
-    <i class="cargo-medico">Pediatria</i>
-    <h4 class="linha-medico">____</h4>
-    <p class="breve-a">Pediatra e cuidados para crianças abaixo dos 14 anos.</p>
-</div>
-<div class="redes-medicos">
-    <a href="#"><i class="bi bi-facebook"></i></a>
-    <a href="#"><i class="bi bi-instagram"></i></a>
-    <a href="#"><i class="bi bi-twitter-x"></i></a>
-</div>
-</div>
-        </div><!-- fim -->
-         <!-- card 2 -->
-         <div class="col-xl-5 col-md-6 cards-medicos" data-aos="fade-up">
-            <div class="img-medico">
-                <img src="imagens/_doctor/04.jpg" alt="">
-            </div>
-            <div class="conteteudo-card-medico">
-            <div class="text-medico">
-                <h4 class="nome-medico">Joel H. Nunes</h4>
-                <i class="cargo-medico">Hepatologia</i>
-                <h4 class="linha-medico">____</h4>
-                <p class="breve-a">Especialistas em Hepatologia e tratamentos intra-pulsivos</p>
-            </div>
-            <div class="redes-medicos">
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-twitter-x"></i></a>
-            </div>
-            </div>
-                    </div><!-- fim -->
-                     <!-- card 3 -->
-        <div class="col-xl-5 col-md-6 cards-medicos" data-aos="fade-up">
-            <div class="img-medico">
-                <img src="imagens/_doctor/03.png" alt="">
-            </div>
-            <div class="conteteudo-card-medico">
-            <div class="text-medico">
-                <h4 class="nome-medico">Lídia A. João</h4>
-                <i class="cargo-medico">Cardiologia</i>
-                <h4 class="linha-medico">____</h4>
-                <p class="breve-a">Especialista em Cirurgias Cardiacas e doenças respiratorias</p>
-            </div>
-            <div class="redes-medicos">
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-twitter-x"></i></a>
-            </div>
-            </div>
-                    </div><!-- fim -->
-                     <!-- card 4-->
-        <div class="col-xl-5 col-md-6 cards-medicos" data-aos="fade-up">
-            <div class="img-medico">
-                <img src="imagens/_doctor/05.jpg" alt="">
-            </div>
-            <div class="conteteudo-card-medico">
-            <div class="text-medico">
-                <h4 class="nome-medico">Vincezo M. Casano</h4>
-                <i class="cargo-medico">Neurologia</i>
-                <h4 class="linha-medico">____</h4>
-                <p class="breve-a"> Especialista em Neurocirurgias e tratamentos psicologicos</p>
-            </div>
-            <div class="redes-medicos">
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-twitter-x"></i></a>
-            </div>
-            </div>
-                    </div><!-- fim -->
-        <!-- card 5-->
-        <div class="col-xl-5 col-md-6 cards-medicos" data-aos="fade-up">
-            <div class="img-medico">
-                <img src="imagens/_doctor/01.jpg" alt="">
-            </div>
-            <div class="conteteudo-card-medico">
-            <div class="text-medico">
-                <h4 class="nome-medico">Marcelina C. André</h4>
-                <i class="cargo-medico">Oftamologia</i>
-                <h4 class="linha-medico">____</h4>
-                <p class="breve-a">Especialista em cirurgias, tratamentos e lavagem oftamologicas</p>
-            </div>
-            <div class="redes-medicos">
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-twitter-x"></i></a>
-            </div>
-            </div>
-                    </div><!-- fim -->
-        <!-- card 6-->
-        <div class="col-xl-5 col-md-6 cards-medicos" data-aos="fade-up">
-            <div class="img-medico">
-                <img src="imagens/_doctor/02.jpg" alt="">
-            </div>
-            <div class="conteteudo-card-medico">
-            <div class="text-medico">
-                <h4 class="nome-medico">António H. Zacarias</h4>
-                <i class="cargo-medico">Farmacologia</i>
-                <h4 class="linha-medico">____</h4>
-                <p class="breve-a">Especialista em administração e desenvolvimento de remédios</p>
-            </div>
-            <div class="redes-medicos">
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-twitter-x"></i></a>
-            </div>
-            </div>
-                    </div><!-- fim -->
-      
-                </div>                
-    </div>
- </section>
- <div class="titulo-corpo" data-aos="fade-up">
-    <h3 class="titulo" data-aos="fade-up">Dicas Médicas</h3>
-    <p data-aos="fade-up">Dicas médicas para cuidados da sua Saúde</p>
-    <p class="linha" data-aos="fade-up">_______________</p>
-</div> 
-<!-- ===================================== Secção Dicas ================================= -->
-<sectio class="dicas" id="Dicas">
-  <div class="container">
-    <div class="row">
-        <!-- card 1 -->
-        <div class="col-xl-4 col-md-6 cards-dicas dica01" data-aos="fade-up">
-        <img src="imagens/_dicas/mosquito.jpg" alt="">
-        <div class="text-dicas">
-        <h4 class="titulo-text-dicas"><i>Previna-se da Malaria</i></h4>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur vero reiciendis fugit, harum velit ad mollitia unde voluptate, esse animi, illo provident odit tempore.</p>
-        </div>
-        </div><!--  -->
-        <!-- card 2 -->
-        <div class="col-xl-4 col-md-6 cards-dicas dica02" data-aos="fade-up">
-        <img src="imagens/_dicas/dor-cabeca.jpg" alt="">
-        <div class="text-dicas">
-        <h4 class="titulo-text-dicas"><i>Vence a Dor de Cabeça</i></h4>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur vero reiciendis fugit, harum velit ad mollitia unde voluptate, esse animi, illo provident odit tempore.</p>
-        </div>
-        </div><!--  -->
-        <!-- card 3 -->
-        <div class="col-xl-4 col-md-6 cards-dicas dica03" data-aos="fade-up">
-        <img src="imagens/_dicas/gripe.jpg" alt="">
-        <div class="text-dicas">
-        <h4 class="titulo-text-dicas"><i>Combate Contra a Gripe</i></h4>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur vero reiciendis fugit, harum velit ad mollitia unde voluptate, esse animi, illo provident odit tempore.</p>
-        </div>
-        </div><!--  -->
-    </div>
-  </div>  
-</sectio>
-<!-- ========= Banner depois das Dicas medicas ========== -->
- <aside class="ban-d-dicas">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-6 col-md-6 bdc-lado1">
-<h4 data-aos="fade-up">Vantagens de Agendar as suas Consultas de Forma Online</h4>
-<p id="breve-texto-vantagens" data-aos="fade-up">Na <strong>AN Clinica</strong> , Oferecemos uma plataforma moderna moderna de agendamento online que coloca o controle da sua saúde nas suas mãos. Evite filas, agenda já - tudo em poucos cliques!</p>
-<div class="lvtg">
-<div class="icone-vtg">
-    <i class="bi bi-clock-fill" data-aos="zoom-in"></i>
-</div>
-<div class="texto-vtg">
-<h6 class="titulo-lista-vantagens" data-aos="fade-up"> Agilidade no Atendimento</h6>
-<p class="lista-vantagens" data-aos="fade-up">Elimine o tempo de espera com um sistema rápido e disponivel 24h. Aqui você agenda no melhor horário, sem gastos.</p>
-</div>
-</div>
+<!-- CORPO -->
+<main class="corpo">
 
-<div class="lvtg">
-    <div class="icone-vtg">
-        <i class="bi bi-currency-dollar" data-aos="zoom-in"></i>
-    </div>
-    <div class="texto-vtg">
-    <h6 class="titulo-lista-vantagens" data-aos="fade-up"> Redução Tempo e Gastos</h6>
-    <p class="lista-vantagens" data-aos="fade-up">Garantimos que você possa agendar ou marcar as consultas consultas sem sequer com gasto zero.</p>
-    </div>
-    </div>
-
-    <div class="lvtg">
-        <div class="icone-vtg">
-            <i class="bi bi-exclamation-triangle-fill" data-aos="zoom-in"></i>
-        </div>
-        <div class="texto-vtg">
-        <h6 class="titulo-lista-vantagens" data-aos="fade-up">Tratamentos Com Urgência</h6>
-        <p class="lista-vantagens" data-aos="fade-up">Poderá garantir os seus tratamentos sem sequer saires de casa e nem esperares filas para seres atendido com urgência.</p>
-        </div>
-        </div>
-            </div>
-            <div class="col-xl-6 col-md-6 bdc-lado2">
-<img src="imagens/1.png" data-aos="zoom-in">
-            </div>
-        </div>
-        </div>
- </aside>
- <!-- ===================================== Secção Contacto ================================= -->
- <div class="titulo-corpo" data-aos="fade-up" id="Contacto">
-    <h3 class="titulo" data-aos="fade-up">Contacto</h3>
-    <p data-aos="fade-up">Fale com a gente, a gente está a sua dispozição</p>
-    <p class="linha" data-aos="fade-up">_______________</p>
-</div>  
- <section class="contacto">
-<div class="container">
-    <div class="rows">
-        <div class="contacto1">
-            <div class="contacto-email col-xl-4 col-md-6 cd-contacto">
-               <p> <i class="bi bi-envelope"></i></p>
-                <h4>Nosso Email</h4>
-                <p>marketing-anclinica@gmail.com</p>
-            </div>
-            <div class="contacto-fone col-xl-4 col-md-6 cd-contacto">
-               <p> <i class="bi bi-telephone"></i></p>
-                <h4>Nosso Telefone</h4>
-                <p>+244 974 300 400  +55 11 950 77 55</p>
-            </div>
-            <div class="contacto-sede col-xl-4 col-md-6 cd-contacto">
-                <p> <i class="bi bi-geo-alt-fill"></i></p>
-                 <h4>Nossa Sede</h4>
-                 <p>Luanda, Golfe 2 - Bairro 28 de Agosto</p>
-             </div>
-            
-        </div>
-    </div>
-</div>
-  </section>
-    </main>
-<!-- ===================================== RODAPE DA PÁGINA ================================= -->
-    <footer class="rodape">
+<section class="sobre" id="Sobre">
 <div class="container">
 <div class="row">
-    <!-- 1 -->
-    <div class="col-xl-4 col-md-6 c-rodape cdrp-01">
-    <img src="imagens/logo.png" alt="" data-aos="zoom-in">
-<div class="cont-rod-01">
-    <p>Unimos tecnologia para oferecer um atendimento de qualidade a todos. Estamos Localizado em varias parte de Angola, especializado em consultas, acompanhamento contínuo e cuidados prevenitivos. </p>
+
+<div class="col-xl-6 col-md-6">
+<img src="imagens/sobre.jpg" class="img-fluid">
 </div>
-    </div><!--  -->
-    <!-- 2 -->
-    <div class="col-xl-2 col-md-6 c-rodape">
-        <h4 class="subtitulo-rodape" data-aos="fade-up">Parceiros</h4>
-       <li data-aos="fade-up">Africhael</li>
-       <li data-aos="fade-up">Shalina</li>
-       <li data-aos="fade-up">BFA</li>
-       <li data-aos="fade-up">Medicare</li>
-       <li data-aos="fade-up">Unitel</li>
-       <li data-aos="fade-up">AN Dev</li>
-        </div><!--  -->
-        <!-- 3 -->
-    <div class="col-xl-3 col-md-6 c-rodape">
-        <h4 class="subtitulo-rodape" data-aos="fade-up">Nossas Sede</h4>
-       <li data-aos="fade-up"><i class="bi bi-geo-alt-fill"></i> Luanda - Golfe 2</li>
-       <li data-aos="fade-up"><i class="bi bi-geo-alt-fill"></i> Benguela - Praia Morena</li>
-       <li data-aos="fade-up"><i class="bi bi-geo-alt-fill"></i> Lisboa - Av. Castelo </li>
-       <li data-aos="fade-up"><i class="bi bi-geo-alt-fill"></i> Maputo - Ondjiva</li>
-       <li data-aos="fade-up"><i class="bi bi-geo-alt-fill"></i> São Paulo - Zona Sul </li>
-       <li data-aos="fade-up"><i class="bi bi-geo-alt-fill"></i> Rio de Janeiro - Quebrada</li>
-        </div><!--  -->
-             <!-- 3 -->
-    <div class="col-xl-2 col-md-6 c-rodape">
-            <h4 class="subtitulo-rodape" data-aos="fade-up">Siga-nos</h4>
-            <li data-aos="fade-up"><a href="#"><i class="bi bi-facebook"></i> AN Clinica Oficial</a></li>
-            <li data-aos="fade-up"><a href="#"><i class="bi bi-instagram"></i> @an_clinica</a></li>
-            <li data-aos="fade-up"><a href="#"><i class="bi bi-tiktok"></i> @an_clinica</a></li>
-            <li data-aos="fade-up"><a href="#"><i class="bi bi-twitter-x"></i> @an_clinica</a></li>
-            <li data-aos="fade-up"><a href="#"><i class="bi bi-youtube"></i> @an_clinica</a></li>
-            <li data-aos="fade-up"><a href="#"><i class="bi bi-whatsapp"></i> +244 974 300 400</a></li>
-            
-            </div><!--  -->
-                      <!-- 4 -->
-    <div class="col-xl-2 col-md-6 botao-rodape">
-        <a href="#"><button class="btn" data-aos="zoom-in"><i class="bi bi-calendar-event-fill"></i> Agendar Consulta</button></a></div>
-        
-        </div><!--  -->
+
+<div class="col-xl-6 col-md-6">
+<h4>Somos a AN Clinica</h4>
+<p>Unimos tecnologia e humanização para cuidar da sua saúde.</p>
 </div>
-</div>        
+
+</div>
+</div>
+</section>
+
+<section class="servicos" id="Servico">
+<div class="container">
+<div class="row">
+
+<div class="col-xl-3 col-md-6">
+<h4><i class="bi bi-calendar-event-fill"></i></h4>
+<h5>Consultas</h5>
+</div>
+
+<div class="col-xl-3 col-md-6">
+<h4><i class="bi bi-camera-video-fill"></i></h4>
+<h5>Telemedicina</h5>
+</div>
+
+<div class="col-xl-3 col-md-6">
+<h4><i class="bi bi-droplet-half"></i></h4>
+<h5>Exames</h5>
+</div>
+
+<div class="col-xl-3 col-md-6">
+<h4><i class="bi bi-activity"></i></h4>
+<h5>Urgência</h5>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- CORREÇÃO: section estava escrito errado -->
+<section class="dicas" id="Dicas">
+<div class="container">
+<div class="row">
+
+<div class="col-xl-4 col-md-6">
+<img src="imagens/_dicas/mosquito.jpg" class="img-fluid">
+<h4>Previna-se da Malaria</h4>
+</div>
+
+<div class="col-xl-4 col-md-6">
+<img src="imagens/_dicas/dor-cabeca.jpg" class="img-fluid">
+<h4>Dor de Cabeça</h4>
+</div>
+
+<div class="col-xl-4 col-md-6">
+<img src="imagens/_dicas/gripe.jpg" class="img-fluid">
+<h4>Gripe</h4>
+</div>
+
+</div>
+</div>
+</section>
+
+<section class="contacto" id="Contacto">
+<div class="container">
+<div class="row">
+
+<div class="col-md-4">
+<i class="bi bi-envelope"></i>
+<p>marketing-anclinica@gmail.com</p>
+</div>
+
+<div class="col-md-4">
+<i class="bi bi-telephone"></i>
+<p>+244 974 300 400</p>
+</div>
+
+<div class="col-md-4">
+<i class="bi bi-geo-alt-fill"></i>
+<p>Luanda - Golfe 2</p>
+</div>
+
+</div>
+</div>
+</section>
+
+</main>
+
+<footer class="rodape">
+<div class="container">
+<div class="row">
+
+<div class="col-xl-4 col-md-6">
+<img src="imagens/logo.png">
+<p>Atendimento de qualidade.</p>
+</div>
+
+</div>
+</div>
+
 <div class="footer-rodape">
-    <p>Copyright &copy; <a href="#">AN Dev - Soluções Web Eficiênte</a></p>
-    <p>Todos os direitos reservados - Julho de 2025</p>
+<p>Copyright &copy; AN Dev</p>
 </div>
-  
-  </footer>     
-  <div>
-         
-   <!-- Javascript Padrão -->
-   <script src="javascript/script.js"></script>
-   <!-- Boostrap -->
-<script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>      
-    <!-- Biblioteca AOS -->
-      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+</footer>
 
-  </div>
+<!-- JS -->
+<script src="javascript/script.js"></script>
+
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- AOS -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
+
 </body>
 </html>
